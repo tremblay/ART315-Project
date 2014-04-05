@@ -12,7 +12,9 @@
 
 @end
 
-@implementation ColorTableViewController
+@implementation ColorTableViewController {
+    NSArray *colors;
+}
 
 - (id)initWithStyle:(UITableViewStyle)style {
     self = [super initWithStyle:style];
@@ -26,6 +28,7 @@
     [super viewDidLoad];
 
     self.navigationItem.hidesBackButton = YES;
+    colors = [[NSArray alloc] initWithObjects:@"Aqua", @"Black", @"Blue", @"Brown", @"Cerulean", @"Fuchsia", @"Gray", @"Green", @"Indigo", @"Lime", @"Maroon", @"Navy", @"Olive", @"Orange", @"Pink", @"Purple", @"Red", @"Scarlet", @"Silver", @"Teal", @"White", @"Yellow", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,26 +37,24 @@
 }
 
 #pragma mark - Table view data source
-/*
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 0;
+    return colors.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
-    // Configure the cell...
+    cell.textLabel.text = [colors objectAtIndex:indexPath.row];
     
     return cell;
 }
-*/
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];

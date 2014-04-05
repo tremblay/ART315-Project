@@ -22,10 +22,26 @@
 		E1F1683118F0ACDD00E7923E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1F1682F18F0ACDD00E7923E /* InfoPlist.strings */; };
 		E1F1683318F0ACDD00E7923E /* BOXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1683218F0ACDD00E7923E /* BOXTests.m */; };
 		E1F1683E18F0AFA000E7923E /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1683D18F0AFA000E7923E /* BrandViewController.m */; };
-		E1F1684118F0B1A500E7923E /* StyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1684018F0B1A500E7923E /* StyleViewController.m */; };
 		E1F1684418F0B41800E7923E /* SizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1684318F0B41800E7923E /* SizeViewController.m */; };
 		E1F1684718F0B44B00E7923E /* ColorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1684618F0B44B00E7923E /* ColorTableViewController.m */; };
 		E1F1684A18F0B6DD00E7923E /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1684918F0B6DD00E7923E /* ProductViewController.m */; };
+		E1F1685A18F0C20400E7923E /* E_Artisan's Choice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684B18F0C20400E7923E /* E_Artisan's Choice.jpg */; };
+		E1F1685B18F0C20400E7923E /* E_Collaborative Group.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684C18F0C20400E7923E /* E_Collaborative Group.jpg */; };
+		E1F1685C18F0C20400E7923E /* E_Discoverarium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684D18F0C20400E7923E /* E_Discoverarium.jpg */; };
+		E1F1685D18F0C20400E7923E /* E_Dr. Shine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684E18F0C20400E7923E /* E_Dr. Shine.jpg */; };
+		E1F1685E18F0C20400E7923E /* E_Future Fit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684F18F0C20400E7923E /* E_Future Fit.jpg */; };
+		E1F1685F18F0C20400E7923E /* E_GoGoGames.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685018F0C20400E7923E /* E_GoGoGames.jpg */; };
+		E1F1686018F0C20400E7923E /* E_Happy Valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685118F0C20400E7923E /* E_Happy Valley.jpg */; };
+		E1F1686118F0C20400E7923E /* E_Hartwell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685218F0C20400E7923E /* E_Hartwell.jpg */; };
+		E1F1686218F0C20400E7923E /* E_Jackson & Browne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685318F0C20400E7923E /* E_Jackson & Browne.jpg */; };
+		E1F1686318F0C20400E7923E /* E_Le Maison d’Artiste.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685418F0C20400E7923E /* E_Le Maison d’Artiste.jpg */; };
+		E1F1686418F0C20400E7923E /* E_Lil Geniuses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685518F0C20400E7923E /* E_Lil Geniuses.jpg */; };
+		E1F1686518F0C20400E7923E /* E_Scheiser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685618F0C20400E7923E /* E_Scheiser.jpg */; };
+		E1F1686618F0C20400E7923E /* E_Slimatrix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685718F0C20400E7923E /* E_Slimatrix.jpg */; };
+		E1F1686718F0C20400E7923E /* E_Synergetic Solutions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685818F0C20400E7923E /* E_Synergetic Solutions.jpg */; };
+		E1F1686818F0C20400E7923E /* E_Xerxes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685918F0C20400E7923E /* E_Xerxes.jpg */; };
+		E1F1686B18F0C34A00E7923E /* E_Crystaleen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1686A18F0C34A00E7923E /* E_Crystaleen.jpg */; };
+		E1F1686E18F0C40200E7923E /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1686D18F0C40200E7923E /* TypeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,14 +75,30 @@
 		E1F1683218F0ACDD00E7923E /* BOXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOXTests.m; sourceTree = "<group>"; };
 		E1F1683C18F0AFA000E7923E /* BrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandViewController.h; sourceTree = "<group>"; };
 		E1F1683D18F0AFA000E7923E /* BrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandViewController.m; sourceTree = "<group>"; };
-		E1F1683F18F0B1A500E7923E /* StyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleViewController.h; sourceTree = "<group>"; };
-		E1F1684018F0B1A500E7923E /* StyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleViewController.m; sourceTree = "<group>"; };
 		E1F1684218F0B41800E7923E /* SizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeViewController.h; sourceTree = "<group>"; };
 		E1F1684318F0B41800E7923E /* SizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeViewController.m; sourceTree = "<group>"; };
 		E1F1684518F0B44B00E7923E /* ColorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTableViewController.h; sourceTree = "<group>"; };
 		E1F1684618F0B44B00E7923E /* ColorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTableViewController.m; sourceTree = "<group>"; };
 		E1F1684818F0B6DD00E7923E /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
 		E1F1684918F0B6DD00E7923E /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		E1F1684B18F0C20400E7923E /* E_Artisan's Choice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Artisan's Choice.jpg"; sourceTree = "<group>"; };
+		E1F1684C18F0C20400E7923E /* E_Collaborative Group.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Collaborative Group.jpg"; sourceTree = "<group>"; };
+		E1F1684D18F0C20400E7923E /* E_Discoverarium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Discoverarium.jpg; sourceTree = "<group>"; };
+		E1F1684E18F0C20400E7923E /* E_Dr. Shine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Dr. Shine.jpg"; sourceTree = "<group>"; };
+		E1F1684F18F0C20400E7923E /* E_Future Fit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Future Fit.jpg"; sourceTree = "<group>"; };
+		E1F1685018F0C20400E7923E /* E_GoGoGames.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_GoGoGames.jpg; sourceTree = "<group>"; };
+		E1F1685118F0C20400E7923E /* E_Happy Valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Happy Valley.jpg"; sourceTree = "<group>"; };
+		E1F1685218F0C20400E7923E /* E_Hartwell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Hartwell.jpg; sourceTree = "<group>"; };
+		E1F1685318F0C20400E7923E /* E_Jackson & Browne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Jackson & Browne.jpg"; sourceTree = "<group>"; };
+		E1F1685418F0C20400E7923E /* E_Le Maison d’Artiste.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Le Maison d’Artiste.jpg"; sourceTree = "<group>"; };
+		E1F1685518F0C20400E7923E /* E_Lil Geniuses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Lil Geniuses.jpg"; sourceTree = "<group>"; };
+		E1F1685618F0C20400E7923E /* E_Scheiser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Scheiser.jpg; sourceTree = "<group>"; };
+		E1F1685718F0C20400E7923E /* E_Slimatrix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Slimatrix.jpg; sourceTree = "<group>"; };
+		E1F1685818F0C20400E7923E /* E_Synergetic Solutions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Synergetic Solutions.jpg"; sourceTree = "<group>"; };
+		E1F1685918F0C20400E7923E /* E_Xerxes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Xerxes.jpg; sourceTree = "<group>"; };
+		E1F1686A18F0C34A00E7923E /* E_Crystaleen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Crystaleen.jpg; sourceTree = "<group>"; };
+		E1F1686C18F0C40200E7923E /* TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
+		E1F1686D18F0C40200E7923E /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,14 +158,15 @@
 		E1F1680A18F0ACDD00E7923E /* BOX */ = {
 			isa = PBXGroup;
 			children = (
+				E1F1686918F0C21600E7923E /* Images */,
 				E1F1681318F0ACDD00E7923E /* AppDelegate.h */,
 				E1F1681418F0ACDD00E7923E /* AppDelegate.m */,
 				E1F1681618F0ACDD00E7923E /* Main_iPhone.storyboard */,
 				E1F1681918F0ACDD00E7923E /* Main_iPad.storyboard */,
+				E1F1686C18F0C40200E7923E /* TypeViewController.h */,
+				E1F1686D18F0C40200E7923E /* TypeViewController.m */,
 				E1F1683C18F0AFA000E7923E /* BrandViewController.h */,
 				E1F1683D18F0AFA000E7923E /* BrandViewController.m */,
-				E1F1683F18F0B1A500E7923E /* StyleViewController.h */,
-				E1F1684018F0B1A500E7923E /* StyleViewController.m */,
 				E1F1684218F0B41800E7923E /* SizeViewController.h */,
 				E1F1684318F0B41800E7923E /* SizeViewController.m */,
 				E1F1684518F0B44B00E7923E /* ColorTableViewController.h */,
@@ -173,6 +206,29 @@
 				E1F1682F18F0ACDD00E7923E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1F1686918F0C21600E7923E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E1F1684B18F0C20400E7923E /* E_Artisan's Choice.jpg */,
+				E1F1684C18F0C20400E7923E /* E_Collaborative Group.jpg */,
+				E1F1686A18F0C34A00E7923E /* E_Crystaleen.jpg */,
+				E1F1684D18F0C20400E7923E /* E_Discoverarium.jpg */,
+				E1F1684E18F0C20400E7923E /* E_Dr. Shine.jpg */,
+				E1F1684F18F0C20400E7923E /* E_Future Fit.jpg */,
+				E1F1685018F0C20400E7923E /* E_GoGoGames.jpg */,
+				E1F1685118F0C20400E7923E /* E_Happy Valley.jpg */,
+				E1F1685218F0C20400E7923E /* E_Hartwell.jpg */,
+				E1F1685318F0C20400E7923E /* E_Jackson & Browne.jpg */,
+				E1F1685418F0C20400E7923E /* E_Le Maison d’Artiste.jpg */,
+				E1F1685518F0C20400E7923E /* E_Lil Geniuses.jpg */,
+				E1F1685618F0C20400E7923E /* E_Scheiser.jpg */,
+				E1F1685718F0C20400E7923E /* E_Slimatrix.jpg */,
+				E1F1685818F0C20400E7923E /* E_Synergetic Solutions.jpg */,
+				E1F1685918F0C20400E7923E /* E_Xerxes.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,10 +307,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F1686818F0C20400E7923E /* E_Xerxes.jpg in Resources */,
 				E1F1681B18F0ACDD00E7923E /* Main_iPad.storyboard in Resources */,
+				E1F1686318F0C20400E7923E /* E_Le Maison d’Artiste.jpg in Resources */,
+				E1F1685F18F0C20400E7923E /* E_GoGoGames.jpg in Resources */,
+				E1F1685C18F0C20400E7923E /* E_Discoverarium.jpg in Resources */,
 				E1F1682018F0ACDD00E7923E /* Images.xcassets in Resources */,
+				E1F1686118F0C20400E7923E /* E_Hartwell.jpg in Resources */,
 				E1F1681818F0ACDD00E7923E /* Main_iPhone.storyboard in Resources */,
+				E1F1686518F0C20400E7923E /* E_Scheiser.jpg in Resources */,
+				E1F1686418F0C20400E7923E /* E_Lil Geniuses.jpg in Resources */,
+				E1F1686618F0C20400E7923E /* E_Slimatrix.jpg in Resources */,
+				E1F1685E18F0C20400E7923E /* E_Future Fit.jpg in Resources */,
 				E1F1680F18F0ACDD00E7923E /* InfoPlist.strings in Resources */,
+				E1F1686B18F0C34A00E7923E /* E_Crystaleen.jpg in Resources */,
+				E1F1686718F0C20400E7923E /* E_Synergetic Solutions.jpg in Resources */,
+				E1F1686018F0C20400E7923E /* E_Happy Valley.jpg in Resources */,
+				E1F1685D18F0C20400E7923E /* E_Dr. Shine.jpg in Resources */,
+				E1F1685B18F0C20400E7923E /* E_Collaborative Group.jpg in Resources */,
+				E1F1685A18F0C20400E7923E /* E_Artisan's Choice.jpg in Resources */,
+				E1F1686218F0C20400E7923E /* E_Jackson & Browne.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1F1684118F0B1A500E7923E /* StyleViewController.m in Sources */,
+				E1F1686E18F0C40200E7923E /* TypeViewController.m in Sources */,
 				E1F1681518F0ACDD00E7923E /* AppDelegate.m in Sources */,
 				E1F1683E18F0AFA000E7923E /* BrandViewController.m in Sources */,
 				E1F1684418F0B41800E7923E /* SizeViewController.m in Sources */,
