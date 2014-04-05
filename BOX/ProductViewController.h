@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ProductViewController.h
 //  BOX
 //
 //  Created by Colin Tremblay on 4/5/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ProductViewController : UIViewController
+
+- (IBAction)buttonTapped:(id)sender;
 
 @end
