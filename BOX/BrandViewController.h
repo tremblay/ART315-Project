@@ -10,6 +10,7 @@
 
 @interface BrandViewController : UIViewController
 
+@property (nonatomic, assign) int selectedInd;
 @property (nonatomic, weak) IBOutlet UIButton *button1;
 @property (nonatomic, weak) IBOutlet UIButton *button2;
 @property (nonatomic, weak) IBOutlet UIButton *button3;

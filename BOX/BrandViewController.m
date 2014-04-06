@@ -7,8 +7,9 @@
 //
 
 #import "BrandViewController.h"
+#import "IMViewWithBorderedImage.h"
 
-@interface BrandViewController ()
+@interface BrandViewController () <UIGestureRecognizerDelegate>
 
 @end
 
@@ -26,11 +27,74 @@
     [super viewDidLoad];
 
     self.navigationItem.hidesBackButton = YES;
-    [_button1 setImage:[UIImage imageNamed:@"E_Happy Valley.jpg"] forState:UIControlStateNormal];
-    [_button2 setImage:[UIImage imageNamed:@"E_Le Maison d’Artiste.jpg"] forState:UIControlStateNormal];
-    [_button3 setImage:[UIImage imageNamed:@"E_Artisan's Choice.jpg"] forState:UIControlStateNormal];
+    IMViewWithBorderedImage *buttonOne = [[IMViewWithBorderedImage alloc] initWithFrame:_button1.frame];
+    buttonOne.cornerRadius = 10;
+    buttonOne.userInteractionEnabled = YES;
+    UITapGestureRecognizer *gest1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonTapped:)];
+    gest1.numberOfTapsRequired = 1;
+    gest1.cancelsTouchesInView = YES;
+    gest1.delegate = self;
+    [buttonOne addGestureRecognizer:gest1];
+    
+    IMViewWithBorderedImage *buttonTwo = [[IMViewWithBorderedImage alloc] initWithFrame:_button2.frame];
+    buttonTwo.cornerRadius = 10;
+    UITapGestureRecognizer *gest2 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonTapped:)];
+    gest2.numberOfTapsRequired = 1;
+    gest2.cancelsTouchesInView = YES;
+    gest2.delegate = self;
+    [buttonTwo addGestureRecognizer:gest2];
 
-}
+    IMViewWithBorderedImage *buttonThree = [[IMViewWithBorderedImage alloc] initWithFrame:_button3.frame];
+    buttonThree.cornerRadius = 10;
+    UITapGestureRecognizer *gest3 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonTapped:)];
+    gest3.numberOfTapsRequired = 1;
+    gest3.cancelsTouchesInView = YES;
+    gest3.delegate = self;
+    [buttonThree addGestureRecognizer:gest3];
+
+    _button1.hidden = YES;
+    _button2.hidden = YES;
+    _button3.hidden = YES;
+
+        switch (_selectedInd) {
+            case 0:
+                buttonOne.image = [UIImage imageNamed:@"E_Happy Valley.jpg"];
+                buttonTwo.image = [UIImage imageNamed:@"E_Le Maison d’Artiste.jpg"];
+                buttonThree.image = [UIImage imageNamed:@"E_Artisan's Choice.jpg"];
+                break;
+            case 1:
+                buttonOne.image = [UIImage imageNamed:@"E_Future Fit.jpg"];
+                buttonTwo.image = [UIImage imageNamed:@"E_Slimatrix.jpg"];
+                buttonThree.image = [UIImage imageNamed:@"E_Voom.jpg"];
+                break;
+            case 2:
+                buttonOne.image = [UIImage imageNamed:@"E_Hartwell.jpg"];
+                buttonTwo.image = [UIImage imageNamed:@"E_Synergetic Solutions.jpg"];
+                buttonThree.image = [UIImage imageNamed:@"E_Collaborative Group.jpg"];
+                break;
+            case 3:
+                buttonOne.image = [UIImage imageNamed:@"E_Dr. Shine.jpg"];
+                buttonTwo.image = [UIImage imageNamed:@"E_Xerxes.jpg"];
+                buttonThree.image = [UIImage imageNamed:@"E_Crystaleen.jpg"];
+                break;
+            case 4:
+                buttonOne.image = [UIImage imageNamed:@"E_Discoverarium.jpg"];
+                buttonTwo.image = [UIImage imageNamed:@"E_GoGoGames.jpg"];
+                buttonThree.image = [UIImage imageNamed:@"E_Lil Geniuses.jpg"];
+                break;
+            case 5:
+                buttonOne.image = [UIImage imageNamed:@"E_Jackson & Browne.jpg"];
+                buttonTwo.image = [UIImage imageNamed:@"E_Scheiser.jpg"];
+                buttonThree.image = [UIImage imageNamed:@"E_Artisan's Choice.jpg"];
+                break;
+            default:
+                break;
+        }
+    
+    [self.view addSubview:buttonOne];
+    [self.view addSubview:buttonTwo];
+    [self.view addSubview:buttonThree];
+ }
 
 
 - (void)didReceiveMemoryWarning {
