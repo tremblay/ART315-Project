@@ -10,4 +10,6 @@
 
 @interface ColorTableViewController : UITableViewController
 
+@property (nonatomic, assign) int selectedBrandInd;
+
 @end

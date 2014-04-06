@@ -10,6 +10,8 @@
 
 @interface SizeViewController : UIViewController
 
+@property (nonatomic, assign) int selectedBrandInd;
+
 - (IBAction)buttonTapped:(id)sender;
 
 @end

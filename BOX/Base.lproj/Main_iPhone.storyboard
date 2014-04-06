@@ -86,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ir-HI-7q0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1391" y="-44"/>
+            <point key="canvasLocation" x="-983" y="-44"/>
         </scene>
         <!--Brand View Controller - Brand-->
         <scene sceneID="JFR-fW-cb6">
@@ -143,7 +143,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p2U-W5-xgF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-969" y="-44"/>
+            <point key="canvasLocation" x="-561" y="-44"/>
         </scene>
         <!--Size View Controller - Size-->
         <scene sceneID="zDa-6B-m6t">
@@ -296,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TsC-If-De1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="756" y="-44"/>
+            <point key="canvasLocation" x="724" y="-44"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xBi-5i-Izl">
@@ -311,7 +311,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s9l-aR-UXC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1806" y="-44"/>
+            <point key="canvasLocation" x="-1394" y="-44"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

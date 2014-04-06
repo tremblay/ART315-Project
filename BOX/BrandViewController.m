@@ -8,6 +8,7 @@
 
 #import "BrandViewController.h"
 #import "IMViewWithBorderedImage.h"
+#import "SizeViewController.h"
 
 @interface BrandViewController () <UIGestureRecognizerDelegate>
 
@@ -106,14 +107,20 @@
     [self performSegueWithIdentifier:@"BrandToSize" sender:sender];
 }
 
-/*
 #pragma mark - Navigation
-
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}*/
+    SizeViewController *sizeVC = (SizeViewController *)[segue destinationViewController];
+    UITapGestureRecognizer *gest = sender;
+    
+    if (90 == gest.view.frame.origin.y) {
+        sizeVC.selectedBrandInd = _selectedInd * 3;
+    } else if (188 == gest.view.frame.origin.y) {
+        sizeVC.selectedBrandInd = _selectedInd * 3 + 1;
+    } else {
+        sizeVC.selectedBrandInd = _selectedInd * 3 + 2;
+    }
+}
 
 
 @end
