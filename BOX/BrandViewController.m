@@ -8,7 +8,7 @@
 
 #import "BrandViewController.h"
 #import "IMViewWithBorderedImage.h"
-#import "SizeViewController.h"
+#import "SizeTableViewController.h"
 
 @interface BrandViewController () <UIGestureRecognizerDelegate>
 
@@ -110,7 +110,7 @@
 #pragma mark - Navigation
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    SizeViewController *sizeVC = (SizeViewController *)[segue destinationViewController];
+    SizeTableViewController *sizeVC = (SizeTableViewController *)[segue destinationViewController];
     UITapGestureRecognizer *gest = sender;
     
     if (90 == gest.view.frame.origin.y) {

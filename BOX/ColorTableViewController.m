@@ -27,9 +27,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     self.navigationItem.hidesBackButton = YES;
-    colors = [[NSArray alloc] initWithObjects:@"Aqua", @"Black", @"Blue", @"Brown", @"Cerulean", @"Fuchsia", @"Gray", @"Green", @"Indigo", @"Lime", @"Maroon", @"Navy", @"Olive", @"Orange", @"Pink", @"Purple", @"Red", @"Scarlet", @"Silver", @"Teal", @"White", @"Yellow", nil];
+    colors = [[NSArray alloc] initWithObjects:
+              @"Tangello Wave",
+              @"Aqua Sunset",
+              @"Rainwater Mist",
+              @"Antique Olive",
+              @"Burnt Peach",
+              @"Electric Asparagus",
+              @"Jungle Cerulean",
+              @"Caribbean Cornflower",
+              @"Faded Denim",
+              @"Fuchsia Pink",
+              @"Hot Pizzazz",
+              @"Razzle-dazzle eggplant",
+              @"Wild Salmon",
+              @"Radical Maroon",
+              @"Grey-Black",
+              @"Hyphenated Blueberry",
+              @"Timberwolf Sherbet",
+              @"Laser Fern",
+              @"Yellow",
+              @"Fuzzy Tangerine",
+              @"Distressed Coquelicot",
+              @"Hot Beige",
+              @"Neon Carrot",
+              @"Subtle Sarcoline",
+              @"Tickle-me Taupe", nil];
 }
 
 - (void)didReceiveMemoryWarning {
