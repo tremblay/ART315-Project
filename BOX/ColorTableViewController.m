@@ -64,10 +64,11 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     timerFlag = NO;
     __block CGFloat i = 0;
     [timer startWithBlock:^CGFloat{
-        return ((i++ >= 100) ? (i = 0) : i) / 100;
+        return ((i++ >= 400) ? (i = 0) : i) / 400;
     }];
 }
 

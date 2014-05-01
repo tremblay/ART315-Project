@@ -79,6 +79,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     timerFlag = NO;
     __block CGFloat i = 0;
     [timer startWithBlock:^CGFloat{
