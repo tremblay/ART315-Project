@@ -12,7 +12,9 @@
 
 @end
 
-@implementation ProductViewController
+@implementation ProductViewController {
+    NSDictionary *descriptionsDict;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -26,6 +28,36 @@
     [super viewDidLoad];
 
     self.navigationItem.hidesBackButton = YES;
+    NSString *descriptionsPath = [[NSBundle mainBundle] pathForResource:@"Descriptions" ofType:@"strings"];
+    descriptionsDict = [NSDictionary dictionaryWithContentsOfFile:descriptionsPath];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSString *key;
+    switch (_selectedBrandInd) {
+        case (0):
+            key = @"Food";
+            break;
+        case (1):
+            key = @"Weight loss";
+            break;
+        case (2):
+            key = @"Executive Support";
+            break;
+        case (3):
+            key = @"Household cleaner";
+            break;
+        case (4):
+            key = @"Toy/Kid’s Product";
+            break;
+        case(5):
+            key = @"Medication";
+            break;
+        default:
+            break;
+    }
+    _description.text = [descriptionsDict objectForKey:key];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -11,6 +11,7 @@
 @interface ProductViewController : UIViewController
 
 @property (nonatomic, assign) int selectedBrandInd;
+@property (nonatomic, weak) IBOutlet UITextView *description;
 
 - (IBAction)buttonTapped:(id)sender;
 
