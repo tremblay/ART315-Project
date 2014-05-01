@@ -28,8 +28,11 @@
     [super viewDidLoad];
 
     self.navigationItem.hidesBackButton = YES;
+    
+    // TODO - Change to normal buttons
     IMViewWithBorderedImage *buttonOne = [[IMViewWithBorderedImage alloc] initWithFrame:_button1.frame];
-    buttonOne.cornerRadius = 10;
+    buttonOne.borderWidth = 1;
+    buttonOne.cornerRadius = 0;
     buttonOne.userInteractionEnabled = YES;
     UITapGestureRecognizer *gest1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonTapped:)];
     gest1.numberOfTapsRequired = 1;
@@ -38,7 +41,8 @@
     [buttonOne addGestureRecognizer:gest1];
     
     IMViewWithBorderedImage *buttonTwo = [[IMViewWithBorderedImage alloc] initWithFrame:_button2.frame];
-    buttonTwo.cornerRadius = 10;
+    buttonTwo.borderWidth = 1;
+    buttonTwo.cornerRadius = 0;
     UITapGestureRecognizer *gest2 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonTapped:)];
     gest2.numberOfTapsRequired = 1;
     gest2.cancelsTouchesInView = YES;
@@ -46,7 +50,8 @@
     [buttonTwo addGestureRecognizer:gest2];
 
     IMViewWithBorderedImage *buttonThree = [[IMViewWithBorderedImage alloc] initWithFrame:_button3.frame];
-    buttonThree.cornerRadius = 10;
+    buttonThree.borderWidth = 1;
+    buttonThree.cornerRadius = 0;
     UITapGestureRecognizer *gest3 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonTapped:)];
     gest3.numberOfTapsRequired = 1;
     gest3.cancelsTouchesInView = YES;
@@ -95,7 +100,7 @@
     [self.view addSubview:buttonOne];
     [self.view addSubview:buttonTwo];
     [self.view addSubview:buttonThree];
- }
+}
 
 
 - (void)didReceiveMemoryWarning {
@@ -111,6 +116,8 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     SizeTableViewController *sizeVC = (SizeTableViewController *)[segue destinationViewController];
+    sizeVC.selectedBrandInd = _selectedInd;
+    /*
     UITapGestureRecognizer *gest = sender;
     
     if (90 == gest.view.frame.origin.y) {
@@ -119,8 +126,7 @@
         sizeVC.selectedBrandInd = _selectedInd * 3 + 1;
     } else {
         sizeVC.selectedBrandInd = _selectedInd * 3 + 2;
-    }
+    }*/
 }
-
 
 @end
