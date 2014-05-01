@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1DDF4DB1911D31F00C08AB0 /* SizeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DDF4DA1911D31F00C08AB0 /* SizeTableViewController.m */; };
+		E1DDF4DD1911EB1D00C08AB0 /* Pasture Labs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4DC1911EB1D00C08AB0 /* Pasture Labs.jpg */; };
 		E1F1680518F0ACDD00E7923E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F1680418F0ACDD00E7923E /* Foundation.framework */; };
 		E1F1680718F0ACDD00E7923E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F1680618F0ACDD00E7923E /* CoreGraphics.framework */; };
 		E1F1680918F0ACDD00E7923E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F1680818F0ACDD00E7923E /* UIKit.framework */; };
@@ -60,6 +61,7 @@
 /* Begin PBXFileReference section */
 		E1DDF4D91911D31F00C08AB0 /* SizeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeTableViewController.h; sourceTree = "<group>"; };
 		E1DDF4DA1911D31F00C08AB0 /* SizeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeTableViewController.m; sourceTree = "<group>"; };
+		E1DDF4DC1911EB1D00C08AB0 /* Pasture Labs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pasture Labs.jpg"; sourceTree = "<group>"; };
 		E1F1680118F0ACDD00E7923E /* BOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F1680418F0ACDD00E7923E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E1F1680618F0ACDD00E7923E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -237,6 +239,7 @@
 				E1F1685718F0C20400E7923E /* E_Slimatrix.jpg */,
 				E1F1685818F0C20400E7923E /* E_Synergetic Solutions.jpg */,
 				E1F1686F18F0CD6500E7923E /* E_Voom.jpg */,
+				E1DDF4DC1911EB1D00C08AB0 /* Pasture Labs.jpg */,
 				E1F1685918F0C20400E7923E /* E_Xerxes.jpg */,
 			);
 			name = Images;
@@ -331,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1F1687018F0CD6500E7923E /* E_Voom.jpg in Resources */,
+				E1DDF4DD1911EB1D00C08AB0 /* Pasture Labs.jpg in Resources */,
 				E1F1686818F0C20400E7923E /* E_Xerxes.jpg in Resources */,
 				E1F1681B18F0ACDD00E7923E /* Main_iPad.storyboard in Resources */,
 				E1F1686318F0C20400E7923E /* E_Le Maison d’Artiste.jpg in Resources */,

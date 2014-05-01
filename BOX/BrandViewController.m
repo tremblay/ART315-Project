@@ -91,7 +91,7 @@
             case 5:
                 buttonOne.image = [UIImage imageNamed:@"E_Jackson & Browne.jpg"];
                 buttonTwo.image = [UIImage imageNamed:@"E_Scheiser.jpg"];
-                buttonThree.image = [UIImage imageNamed:@"E_Artisan's Choice.jpg"];
+                buttonThree.image = [UIImage imageNamed:@"Pasture Labs.jpg"];
                 break;
             default:
                 break;
