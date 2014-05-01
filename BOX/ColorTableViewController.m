@@ -8,13 +8,16 @@
 
 #import "ColorTableViewController.h"
 #import "ProductViewController.h"
+#import "KKProgressTimer.h"
 
-@interface ColorTableViewController ()
+@interface ColorTableViewController () <KKProgressTimerDelegate>
 
 @end
 
 @implementation ColorTableViewController {
     NSArray *colors;
+    KKProgressTimer *timer;
+    BOOL timerFlag;
 }
 
 - (id)initWithStyle:(UITableViewStyle)style {
@@ -55,11 +58,35 @@
               @"Neon Carrot",
               @"Subtle Sarcoline",
               @"Tickle-me Taupe", nil];
+    timer = [[KKProgressTimer alloc] initWithFrame:_timerView.bounds];
+    [_timerView addSubview:timer];
+    timer.delegate = self;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    timerFlag = NO;
+    __block CGFloat i = 0;
+    [timer startWithBlock:^CGFloat{
+        return ((i++ >= 100) ? (i = 0) : i) / 100;
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark Timer Delegate
+- (void)didUpdateProgressTimer:(KKProgressTimer *)progressTimer percentage:(CGFloat)percentage {
+    if (1 <= percentage) {
+        [progressTimer stop];
+    }
+}
+
+- (void)didStopProgressTimer:(KKProgressTimer *)progressTimer percentage:(CGFloat)percentage {
+    if (!timerFlag) {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
 }
 
 #pragma mark - Table view data source
@@ -73,8 +100,7 @@
     return colors.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     cell.textLabel.text = [colors objectAtIndex:indexPath.row];
@@ -90,6 +116,8 @@
 #pragma mark - Navigation
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    timerFlag = YES;
+    [timer stop];
     ProductViewController *productVC = (ProductViewController *)[segue destinationViewController];
     productVC.selectedBrandInd = _selectedBrandInd;
 }

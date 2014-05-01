@@ -14,6 +14,7 @@
 @property (nonatomic, weak) IBOutlet UIButton *button1;
 @property (nonatomic, weak) IBOutlet UIButton *button2;
 @property (nonatomic, weak) IBOutlet UIButton *button3;
+@property (nonatomic, weak) IBOutlet UIView *timerView;
 
 - (IBAction)buttonTapped:(id)sender;
 

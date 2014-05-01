@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="H6Z-wS-jZl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="d5l-Ql-DH0">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ix7-ya-r0t">
@@ -79,8 +79,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Type" id="kXL-ou-GUb"/>
+                    <navigationItem key="navigationItem" title="Type" id="kXL-ou-GUb">
+                        <barButtonItem key="leftBarButtonItem" id="tBy-g6-4TG">
+                            <view key="customView" contentMode="scaleToFill" id="7fH-62-CAv">
+                                <rect key="frame" x="16" y="1" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="timerView" destination="7fH-62-CAv" id="KLh-NY-9Xb"/>
                         <segue destination="gb4-Nc-OPv" kind="push" identifier="TypeToBrand" id="mlL-mc-Znm"/>
                     </connections>
                 </viewController>
@@ -97,7 +106,7 @@
                         <viewControllerLayoutGuide type="bottom" id="rLh-Ks-tIq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jcd-0h-mnk">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUf-du-3aP">
@@ -133,11 +142,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Brand" id="2T8-mp-wfp"/>
+                    <navigationItem key="navigationItem" title="Brand" id="2T8-mp-wfp">
+                        <barButtonItem key="leftBarButtonItem" id="eAL-J3-Jr8">
+                            <view key="customView" contentMode="scaleToFill" id="4eK-cx-mTB">
+                                <rect key="frame" x="16" y="1" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="button1" destination="rwH-yt-9Wt" id="y7U-3v-ye6"/>
                         <outlet property="button2" destination="h6o-wj-AkQ" id="QIL-aa-bGq"/>
                         <outlet property="button3" destination="SUf-du-3aP" id="UU1-uu-uV8"/>
+                        <outlet property="timerView" destination="4eK-cx-mTB" id="0Oh-KG-noW"/>
                         <segue destination="LaJ-ia-uUb" kind="push" identifier="BrandToSize" id="9Mg-ZD-41B"/>
                     </connections>
                 </viewController>
@@ -150,7 +168,7 @@
             <objects>
                 <tableViewController id="LaJ-ia-uUb" customClass="SizeTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="tvh-Le-CUW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -177,8 +195,17 @@
                             <outlet property="delegate" destination="LaJ-ia-uUb" id="Dok-nM-v8s"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Size" id="jUc-Ww-NCm"/>
+                    <navigationItem key="navigationItem" title="Size" id="jUc-Ww-NCm">
+                        <barButtonItem key="leftBarButtonItem" id="3V0-QE-YmI">
+                            <view key="customView" contentMode="scaleToFill" id="kcO-3L-vlf">
+                                <rect key="frame" x="16" y="1" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="timerView" destination="kcO-3L-vlf" id="gUQ-5Y-gDz"/>
                         <segue destination="JIk-oZ-vyu" kind="push" identifier="SizeToColor" id="Wc4-dT-VW2"/>
                     </connections>
                 </tableViewController>
@@ -191,7 +218,7 @@
             <objects>
                 <tableViewController id="JIk-oZ-vyu" customClass="ColorTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="cBz-8N-DqK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -218,8 +245,17 @@
                             <outlet property="delegate" destination="JIk-oZ-vyu" id="kzb-Ov-sV9"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Color" id="gPG-4t-s9i"/>
+                    <navigationItem key="navigationItem" title="Color" id="gPG-4t-s9i">
+                        <barButtonItem key="leftBarButtonItem" id="Ik8-gt-Dhk">
+                            <view key="customView" contentMode="scaleToFill" id="szN-aS-xRk">
+                                <rect key="frame" x="16" y="1" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="timerView" destination="szN-aS-xRk" id="o1W-m3-18A"/>
                         <segue destination="k8r-g7-PMh" kind="push" identifier="ColorToProduct" id="R0v-8k-DO9"/>
                     </connections>
                 </tableViewController>
@@ -236,11 +272,11 @@
                         <viewControllerLayoutGuide type="bottom" id="2Gv-jK-LhP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6UQ-xZ-f4T">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3A-ap-7pf">
-                                <rect key="frame" x="115" y="518" width="91" height="30"/>
+                                <rect key="frame" x="115" y="430" width="91" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back to Start">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -290,6 +326,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

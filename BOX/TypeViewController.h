@@ -11,5 +11,5 @@
 @interface TypeViewController : UIViewController
 
 - (IBAction)buttonTapped:(id)sender;
-
+@property (nonatomic, weak) IBOutlet UIView *timerView;
 @end

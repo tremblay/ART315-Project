@@ -8,12 +8,16 @@
 
 #import "TypeViewController.h"
 #import "BrandViewController.h"
+#import "KKProgressTimer.h"
 
-@interface TypeViewController ()
+@interface TypeViewController () <KKProgressTimerDelegate>
 
 @end
 
-@implementation TypeViewController
+@implementation TypeViewController {
+    KKProgressTimer *timer;
+    BOOL timerFlag;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +31,18 @@
     [super viewDidLoad];
     
     self.navigationItem.hidesBackButton = YES;
+    
+    timer = [[KKProgressTimer alloc] initWithFrame:_timerView.bounds];
+    [_timerView addSubview:timer];
+    timer.delegate = self;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    timerFlag = NO;
+    __block CGFloat i = 0;
+    [timer startWithBlock:^CGFloat{
+        return ((i++ >= 100) ? (i = 0) : i) / 100;
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,23 +54,38 @@
     [self performSegueWithIdentifier:@"TypeToBrand" sender:sender];
 }
 
+#pragma mark Timer Delegate
+- (void)didUpdateProgressTimer:(KKProgressTimer *)progressTimer percentage:(CGFloat)percentage {
+    if (1 <= percentage) {
+        [progressTimer stop];
+    }
+}
+
+- (void)didStopProgressTimer:(KKProgressTimer *)progressTimer percentage:(CGFloat)percentage {
+    if (!timerFlag) {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+}
+
  #pragma mark - Navigation
  // In a storyboard-based application, you will often want to do a little preparation before navigation
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+     timerFlag = YES;
+     [timer stop];
      BrandViewController *brandVC = (BrandViewController *)[segue destinationViewController];
      UIButton *sendingButton = sender;
      if (20 == sendingButton.frame.origin.x) {
-         if (83 == sendingButton.frame.origin.y) {
+         if (126 == sendingButton.frame.origin.y) {
              brandVC.selectedInd = 0;
-         } else if (222 == sendingButton.frame.origin.y) {
+         } else if (234 == sendingButton.frame.origin.y) {
              brandVC.selectedInd = 2;
          } else {
              brandVC.selectedInd = 4;
          }
      } else {
-         if (83 == sendingButton.frame.origin.y) {
+         if (126 == sendingButton.frame.origin.y) {
              brandVC.selectedInd = 1;
-         } else if (222 == sendingButton.frame.origin.y) {
+         } else if (234 == sendingButton.frame.origin.y) {
              brandVC.selectedInd = 3;
          } else {
              brandVC.selectedInd = 5;

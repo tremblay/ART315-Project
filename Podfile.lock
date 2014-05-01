@@ -1,0 +1,14 @@
+PODS:
+  - KKProgressTimer (0.0.1)
+
+DEPENDENCIES:
+  - KKProgressTimer (from `http://github.com/gin0606/KKProgressTimer.git`)
+
+EXTERNAL SOURCES:
+  KKProgressTimer:
+    :git: http://github.com/gin0606/KKProgressTimer.git
+
+SPEC CHECKSUMS:
+  KKProgressTimer: 87a1001670f911a827cab5d8afb776c5db259953
+
+COCOAPODS: 0.32.1

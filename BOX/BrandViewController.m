@@ -8,12 +8,16 @@
 
 #import "BrandViewController.h"
 #import "SizeTableViewController.h"
+#import "KKProgressTimer.h"
 
-@interface BrandViewController () <UIGestureRecognizerDelegate>
+@interface BrandViewController () <KKProgressTimerDelegate>
 
 @end
 
-@implementation BrandViewController
+@implementation BrandViewController {
+    KKProgressTimer *timer;
+    BOOL timerFlag;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -69,8 +73,18 @@
         default:
             break;
     }
+    timer = [[KKProgressTimer alloc] initWithFrame:_timerView.bounds];
+    [_timerView addSubview:timer];
+    timer.delegate = self;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    timerFlag = NO;
+    __block CGFloat i = 0;
+    [timer startWithBlock:^CGFloat{
+        return ((i++ >= 100) ? (i = 0) : i) / 100;
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -81,21 +95,26 @@
     [self performSegueWithIdentifier:@"BrandToSize" sender:sender];
 }
 
+#pragma mark Timer Delegate
+- (void)didUpdateProgressTimer:(KKProgressTimer *)progressTimer percentage:(CGFloat)percentage {
+    if (1 <= percentage) {
+        [progressTimer stop];
+    }
+}
+
+- (void)didStopProgressTimer:(KKProgressTimer *)progressTimer percentage:(CGFloat)percentage {
+    if (!timerFlag) {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+}
+
 #pragma mark - Navigation
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    timerFlag = YES;
+    [timer stop];
     SizeTableViewController *sizeVC = (SizeTableViewController *)[segue destinationViewController];
     sizeVC.selectedBrandInd = _selectedInd;
-    /*
-     UITapGestureRecognizer *gest = sender;
-     
-     if (90 == gest.view.frame.origin.y) {
-     sizeVC.selectedBrandInd = _selectedInd * 3;
-     } else if (188 == gest.view.frame.origin.y) {
-     sizeVC.selectedBrandInd = _selectedInd * 3 + 1;
-     } else {
-     sizeVC.selectedBrandInd = _selectedInd * 3 + 2;
-     }*/
 }
 
 @end

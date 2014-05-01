@@ -11,5 +11,6 @@
 @interface ColorTableViewController : UITableViewController
 
 @property (nonatomic, assign) int selectedBrandInd;
+@property (nonatomic, weak) IBOutlet UIView *timerView;
 
 @end
