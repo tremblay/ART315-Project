@@ -7,7 +7,6 @@
 //
 
 #import "BrandViewController.h"
-#import "IMViewWithBorderedImage.h"
 #import "SizeTableViewController.h"
 
 @interface BrandViewController () <UIGestureRecognizerDelegate>
@@ -26,80 +25,50 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     self.navigationItem.hidesBackButton = YES;
     
-    // TODO - Change to normal buttons
-    IMViewWithBorderedImage *buttonOne = [[IMViewWithBorderedImage alloc] initWithFrame:_button1.frame];
-    buttonOne.borderWidth = 1;
-    buttonOne.cornerRadius = 0;
-    buttonOne.userInteractionEnabled = YES;
-    UITapGestureRecognizer *gest1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonTapped:)];
-    gest1.numberOfTapsRequired = 1;
-    gest1.cancelsTouchesInView = YES;
-    gest1.delegate = self;
-    [buttonOne addGestureRecognizer:gest1];
-    
-    IMViewWithBorderedImage *buttonTwo = [[IMViewWithBorderedImage alloc] initWithFrame:_button2.frame];
-    buttonTwo.borderWidth = 1;
-    buttonTwo.cornerRadius = 0;
-    UITapGestureRecognizer *gest2 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonTapped:)];
-    gest2.numberOfTapsRequired = 1;
-    gest2.cancelsTouchesInView = YES;
-    gest2.delegate = self;
-    [buttonTwo addGestureRecognizer:gest2];
+    [[_button1 layer] setBorderWidth:2.0f];
+    [[_button1 layer] setBorderColor:[UIColor darkGrayColor].CGColor];
+    [[_button2 layer] setBorderWidth:2.0f];
+    [[_button2 layer] setBorderColor:[UIColor darkGrayColor].CGColor];
+    [[_button3 layer] setBorderWidth:2.0f];
+    [[_button3 layer] setBorderColor:[UIColor darkGrayColor].CGColor];
 
-    IMViewWithBorderedImage *buttonThree = [[IMViewWithBorderedImage alloc] initWithFrame:_button3.frame];
-    buttonThree.borderWidth = 1;
-    buttonThree.cornerRadius = 0;
-    UITapGestureRecognizer *gest3 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonTapped:)];
-    gest3.numberOfTapsRequired = 1;
-    gest3.cancelsTouchesInView = YES;
-    gest3.delegate = self;
-    [buttonThree addGestureRecognizer:gest3];
-
-    _button1.hidden = YES;
-    _button2.hidden = YES;
-    _button3.hidden = YES;
-
-        switch (_selectedInd) {
-            case 0:
-                buttonOne.image = [UIImage imageNamed:@"E_Happy Valley.jpg"];
-                buttonTwo.image = [UIImage imageNamed:@"E_Le Maison d’Artiste.jpg"];
-                buttonThree.image = [UIImage imageNamed:@"E_Artisan's Choice.jpg"];
-                break;
-            case 1:
-                buttonOne.image = [UIImage imageNamed:@"E_Future Fit.jpg"];
-                buttonTwo.image = [UIImage imageNamed:@"E_Slimatrix.jpg"];
-                buttonThree.image = [UIImage imageNamed:@"E_Voom.jpg"];
-                break;
-            case 2:
-                buttonOne.image = [UIImage imageNamed:@"E_Hartwell.jpg"];
-                buttonTwo.image = [UIImage imageNamed:@"E_Synergetic Solutions.jpg"];
-                buttonThree.image = [UIImage imageNamed:@"E_Collaborative Group.jpg"];
-                break;
-            case 3:
-                buttonOne.image = [UIImage imageNamed:@"E_Dr. Shine.jpg"];
-                buttonTwo.image = [UIImage imageNamed:@"E_Xerxes.jpg"];
-                buttonThree.image = [UIImage imageNamed:@"E_Crystaleen.jpg"];
-                break;
-            case 4:
-                buttonOne.image = [UIImage imageNamed:@"E_Discoverarium.jpg"];
-                buttonTwo.image = [UIImage imageNamed:@"E_GoGoGames.jpg"];
-                buttonThree.image = [UIImage imageNamed:@"E_Lil Geniuses.jpg"];
-                break;
-            case 5:
-                buttonOne.image = [UIImage imageNamed:@"E_Jackson & Browne.jpg"];
-                buttonTwo.image = [UIImage imageNamed:@"E_Scheiser.jpg"];
-                buttonThree.image = [UIImage imageNamed:@"Pasture Labs.jpg"];
-                break;
-            default:
-                break;
-        }
-    
-    [self.view addSubview:buttonOne];
-    [self.view addSubview:buttonTwo];
-    [self.view addSubview:buttonThree];
+    switch (_selectedInd) {
+        case 0:
+            [_button1 setImage:[UIImage imageNamed:@"E_Happy Valley.jpg"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Le Maison d’Artiste.jpg"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Artisan's Choice.jpg"]  forState:UIControlStateNormal];
+            break;
+        case 1:
+            [_button1 setImage:[UIImage imageNamed:@"E_Future Fit.jpg"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Slimatrix.jpg"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Voom.jpg"]  forState:UIControlStateNormal];
+            break;
+        case 2:
+            [_button1 setImage:[UIImage imageNamed:@"E_Hartwell.jpg"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Synergetic Solutions.jpg"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Collaborative Group.jpg"]  forState:UIControlStateNormal];
+            break;
+        case 3:
+            [_button1 setImage:[UIImage imageNamed:@"E_Dr. Shine.jpg"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Xerxes.jpg"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Crystaleen.jpg"]  forState:UIControlStateNormal];
+            break;
+        case 4:
+            [_button1 setImage:[UIImage imageNamed:@"E_Discoverarium.jpg"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_GoGoGames.jpg"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Lil Geniuses.jpg"]  forState:UIControlStateNormal];
+            break;
+        case 5:
+            [_button1 setImage:[UIImage imageNamed:@"E_Jackson & Browne.jpg"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Scheiser.jpg"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"Pasture Labs.jpg"]  forState:UIControlStateNormal];
+            break;
+        default:
+            break;
+    }
 }
 
 
@@ -118,15 +87,15 @@
     SizeTableViewController *sizeVC = (SizeTableViewController *)[segue destinationViewController];
     sizeVC.selectedBrandInd = _selectedInd;
     /*
-    UITapGestureRecognizer *gest = sender;
-    
-    if (90 == gest.view.frame.origin.y) {
-        sizeVC.selectedBrandInd = _selectedInd * 3;
-    } else if (188 == gest.view.frame.origin.y) {
-        sizeVC.selectedBrandInd = _selectedInd * 3 + 1;
-    } else {
-        sizeVC.selectedBrandInd = _selectedInd * 3 + 2;
-    }*/
+     UITapGestureRecognizer *gest = sender;
+     
+     if (90 == gest.view.frame.origin.y) {
+     sizeVC.selectedBrandInd = _selectedInd * 3;
+     } else if (188 == gest.view.frame.origin.y) {
+     sizeVC.selectedBrandInd = _selectedInd * 3 + 1;
+     } else {
+     sizeVC.selectedBrandInd = _selectedInd * 3 + 2;
+     }*/
 }
 
 @end
