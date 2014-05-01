@@ -10,6 +10,8 @@
 		C52D22B6A7CC4F07A96E7E92 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31240195478E4C548ED53384 /* libPods.a */; };
 		E1CF5AAC19120AC600BE0401 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CF5AAB19120AC600BE0401 /* SplashViewController.m */; };
 		E1D1B76919120DBB00EFA71E /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D1B76819120DBB00EFA71E /* splash.png */; };
+		E1D1B76B1912127700EFA71E /* Box Product.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1D1B76A1912127700EFA71E /* Box Product.jpg */; };
+		E1D1B76D191212C200EFA71E /* Descriptions.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1D1B76C191212C200EFA71E /* Descriptions.strings */; };
 		E1DDF4DB1911D31F00C08AB0 /* SizeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DDF4DA1911D31F00C08AB0 /* SizeTableViewController.m */; };
 		E1DDF4DD1911EB1D00C08AB0 /* Pasture Labs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4DC1911EB1D00C08AB0 /* Pasture Labs.jpg */; };
 		E1DDF4E41911F49A00C08AB0 /* Around The House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4DE1911F49A00C08AB0 /* Around The House.jpg */; };
@@ -72,6 +74,8 @@
 		E1CF5AAA19120AC600BE0401 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		E1CF5AAB19120AC600BE0401 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		E1D1B76819120DBB00EFA71E /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		E1D1B76A1912127700EFA71E /* Box Product.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Box Product.jpg"; sourceTree = "<group>"; };
+		E1D1B76C191212C200EFA71E /* Descriptions.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Descriptions.strings; sourceTree = "<group>"; };
 		E1DDF4D91911D31F00C08AB0 /* SizeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeTableViewController.h; sourceTree = "<group>"; };
 		E1DDF4DA1911D31F00C08AB0 /* SizeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeTableViewController.m; sourceTree = "<group>"; };
 		E1DDF4DC1911EB1D00C08AB0 /* Pasture Labs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pasture Labs.jpg"; sourceTree = "<group>"; };
@@ -156,6 +160,7 @@
 		E1DDF4EA1911F4AA00C08AB0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E1D1B76A1912127700EFA71E /* Box Product.jpg */,
 				E1D1B76819120DBB00EFA71E /* splash.png */,
 				E1DDF4EB1911F4C200C08AB0 /* Type Images */,
 				E1F1686918F0C21600E7923E /* Brand Images */,
@@ -229,6 +234,7 @@
 				E1F1684618F0B44B00E7923E /* ColorTableViewController.m */,
 				E1F1684818F0B6DD00E7923E /* ProductViewController.h */,
 				E1F1684918F0B6DD00E7923E /* ProductViewController.m */,
+				E1D1B76C191212C200EFA71E /* Descriptions.strings */,
 				E1F1681F18F0ACDD00E7923E /* Images.xcassets */,
 				E1F1680B18F0ACDD00E7923E /* Supporting Files */,
 			);
@@ -380,12 +386,14 @@
 				E1DDF4E61911F49A00C08AB0 /* Food.jpg in Resources */,
 				E1F1685C18F0C20400E7923E /* E_Discoverarium.jpg in Resources */,
 				E1F1682018F0ACDD00E7923E /* Images.xcassets in Resources */,
+				E1D1B76D191212C200EFA71E /* Descriptions.strings in Resources */,
 				E1F1686118F0C20400E7923E /* E_Hartwell.jpg in Resources */,
 				E1DDF4E71911F49A00C08AB0 /* Health.jpg in Resources */,
 				E1F1681818F0ACDD00E7923E /* Main_iPhone.storyboard in Resources */,
 				E1DDF4E51911F49A00C08AB0 /* Executive Support.jpg in Resources */,
 				E1F1686518F0C20400E7923E /* E_Scheiser.jpg in Resources */,
 				E1D1B76919120DBB00EFA71E /* splash.png in Resources */,
+				E1D1B76B1912127700EFA71E /* Box Product.jpg in Resources */,
 				E1F1686418F0C20400E7923E /* E_Lil Geniuses.jpg in Resources */,
 				E1DDF4ED1911F4FA00C08AB0 /* E_Happy Valley.jpg in Resources */,
 				E1F1686618F0C20400E7923E /* E_Slimatrix.jpg in Resources */,
