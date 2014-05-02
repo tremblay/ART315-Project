@@ -38,10 +38,10 @@
     NSString *key;
     switch (_selectedBrandInd) {
         case (0):
-            key = @"Food";
+            key = @"food";
             break;
         case (1):
-            key = @"Weight Loss";
+            key = @"weight loss";
             break;
         case (2):
             key = @"Executive Support";
@@ -53,18 +53,20 @@
             key = @"ToyKid’s Product";
             break;
         case(5):
-            key = @"Medication";
+            key = @"medication";
             break;
         default:
             break;
     }
     _description.text = [descriptionsDict objectForKey:key];
-    NSURL *soundFile = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@.mp3", [[NSBundle mainBundle] resourcePath], key]];
-    //NSLog(@"%d", [[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithFormat:@"%@/%@.mp3", [[NSBundle mainBundle] resourcePath], key]]);
+    NSString *path = [NSString stringWithFormat:@"%@/%@.mp3", [[NSBundle mainBundle] resourcePath], key];
+    NSURL *soundFile = [NSURL fileURLWithPath:path];
+    //NSLog(@"%@: %d", path, [[NSFileManager defaultManager] fileExistsAtPath:path]);
+
     NSError *err;
     _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFile error:&err];
     if (err) {
-        NSLog(@"%@", [err localizedDescription]);
+        [self showNotice:[err localizedDescription]];
     } else {
         [_audioPlayer prepareToPlay];
         [_audioPlayer setDelegate:self];
@@ -81,9 +83,26 @@
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
+#pragma mark UIAlertViewDelegate Methods
+// Called when an alert button is tapped.
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    _returnToStart.hidden = NO;
+    return;
+}
+
+- (void)showNotice:(NSString *)error {
+    UIAlertView *alert = [[UIAlertView alloc]
+                            initWithTitle:@"An Error Occurred"
+                            message:error
+                            delegate:self
+                            cancelButtonTitle:@"OK"
+                            otherButtonTitles:nil
+                            ];
+    [alert show];
+}
+
 #pragma mark - AVAudioPlayer Delegate
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
-    NSLog(@"Here");
     _returnToStart.hidden = NO;
 }
 
