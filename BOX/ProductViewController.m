@@ -46,10 +46,10 @@
             key = @"Executive Support";
             break;
         case (3):
-            key = @"Household cleaner";
+            key = @"Household Cleaner";
             break;
         case (4):
-            key = @"Toy/Kid’s Product";
+            key = @"ToyKid’s Product";
             break;
         case(5):
             key = @"Medication";
@@ -58,6 +58,8 @@
             break;
     }
     _description.text = [descriptionsDict objectForKey:key];
+    
+    NSURL *soundFile = [[NSURL alloc] initFileURLWithPath:[[NSBundle mainBundle] pathForResource:key ofType:@"mp3" inDirectory:@"Audio"]];
 }
 
 - (void)didReceiveMemoryWarning {
