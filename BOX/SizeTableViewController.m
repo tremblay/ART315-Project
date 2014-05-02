@@ -30,7 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"Choose a Size";
     self.navigationItem.hidesBackButton = YES;
     sizes = [[NSArray alloc] initWithObjects:@"Fun Size", @"Medium", @"Family", @"King", @"*Special (Limited Time)*",nil];
     timer = [[KKProgressTimer alloc] initWithFrame:_timerView.bounds];

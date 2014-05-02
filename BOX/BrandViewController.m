@@ -29,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"Choose a Brand";
     self.navigationItem.hidesBackButton = YES;
     
     [[_button1 layer] setBorderWidth:2.0f];

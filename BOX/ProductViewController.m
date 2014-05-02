@@ -26,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.title = @"Thank You For Purchase";
     self.navigationItem.hidesBackButton = YES;
     NSString *descriptionsPath = [[NSBundle mainBundle] pathForResource:@"Descriptions" ofType:@"strings"];
     descriptionsDict = [NSDictionary dictionaryWithContentsOfFile:descriptionsPath];

@@ -29,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"Choose a Department";
     self.navigationItem.hidesBackButton = YES;
     
     timer = [[KKProgressTimer alloc] initWithFrame:_timerView.bounds];

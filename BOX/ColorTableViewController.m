@@ -30,7 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"Choose a Color";
     self.navigationItem.hidesBackButton = YES;
     colors = [[NSArray alloc] initWithObjects:
               @"Tangello Wave",

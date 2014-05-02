@@ -425,7 +425,7 @@
                 <navigationController definesPresentationContext="YES" id="t3T-LO-pXT" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BHg-pW-gLZ">
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </navigationBar>
                     <connections>
                         <segue destination="rK5-Dg-4LV" kind="relationship" relationship="rootViewController" id="ROz-2y-Oc7"/>
