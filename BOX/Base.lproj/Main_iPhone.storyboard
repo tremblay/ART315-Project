@@ -412,6 +412,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="description" destination="VWw-su-KRX" id="iZe-fc-txs"/>
+                        <outlet property="returnToStart" destination="z3A-ap-7pf" id="LDj-uv-QeL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TsC-If-De1" userLabel="First Responder" sceneMemberID="firstResponder"/>

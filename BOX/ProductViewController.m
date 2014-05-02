@@ -7,7 +7,6 @@
 //
 
 #import "ProductViewController.h"
-#import <AVFoundation/AVFoundation.h>
 
 @interface ProductViewController ()
 
@@ -35,6 +34,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    _returnToStart.hidden = YES;
     NSString *key;
     switch (_selectedBrandInd) {
         case (0):
@@ -59,15 +59,17 @@
             break;
     }
     _description.text = [descriptionsDict objectForKey:key];
-    NSString *path = [NSString stringWithFormat:@"BOX/Audio/%@", key];
-    NSLog(@"%d", [[NSFileManager defaultManager] fileExistsAtPath:path]);
-    /*NSURL *soundFile = [[NSURL alloc] initFileURLWithPath:[[NSBundle mainBundle] pathForResource:key ofType:@"mp3" inDirectory:@"Audio"]];
+    NSURL *soundFile = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@.mp3", [[NSBundle mainBundle] resourcePath], key]];
+    //NSLog(@"%d", [[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithFormat:@"%@/%@.mp3", [[NSBundle mainBundle] resourcePath], key]]);
     NSError *err;
-    AVAudioPlayer *audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFile error:&err];
+    _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFile error:&err];
     if (err) {
-        //
+        NSLog(@"%@", [err localizedDescription]);
+    } else {
+        [_audioPlayer prepareToPlay];
+        [_audioPlayer setDelegate:self];
+        [_audioPlayer play];
     }
-    [audioPlayer play];*/
 }
 
 - (void)didReceiveMemoryWarning {
@@ -79,15 +81,10 @@
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - AVAudioPlayer Delegate
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
+    NSLog(@"Here");
+    _returnToStart.hidden = NO;
 }
-*/
 
 @end

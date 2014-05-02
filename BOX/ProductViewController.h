@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ProductViewController : UIViewController
+@interface ProductViewController : UIViewController <AVAudioPlayerDelegate>
 
 @property (nonatomic, assign) int selectedBrandInd;
 @property (nonatomic, weak) IBOutlet UITextView *description;
+@property (nonatomic, weak) IBOutlet UIButton *returnToStart;
+@property (nonatomic, strong) AVAudioPlayer *audioPlayer;
 
 - (IBAction)buttonTapped:(id)sender;
 
