@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C52D22B6A7CC4F07A96E7E92 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31240195478E4C548ED53384 /* libPods.a */; };
+		E1C69B1E19133D3900913077 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C69B1D19133D3900913077 /* AVFoundation.framework */; };
 		E1CF5AAC19120AC600BE0401 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CF5AAB19120AC600BE0401 /* SplashViewController.m */; };
 		E1D1B76919120DBB00EFA71E /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D1B76819120DBB00EFA71E /* splash.png */; };
 		E1D1B76B1912127700EFA71E /* Box Product.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1D1B76A1912127700EFA71E /* Box Product.jpg */; };
@@ -22,11 +23,11 @@
 		E1DDF4E91911F49A00C08AB0 /* Toy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4E31911F49A00C08AB0 /* Toy.jpg */; };
 		E1DDF4ED1911F4FA00C08AB0 /* E_Happy Valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4EC1911F4FA00C08AB0 /* E_Happy Valley.jpg */; };
 		E1E5F33319132EEC00A3476D /* Household Cleaner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F32D19132EEC00A3476D /* Household Cleaner.mp3 */; };
-		E1E5F33419132EEC00A3476D /* exec support.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F32E19132EEC00A3476D /* exec support.mp3 */; };
-		E1E5F33519132EEC00A3476D /* food.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F32F19132EEC00A3476D /* food.mp3 */; };
-		E1E5F33619132EEC00A3476D /* medication.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F33019132EEC00A3476D /* medication.mp3 */; };
+		E1E5F33419132EEC00A3476D /* Executive Support.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F32E19132EEC00A3476D /* Executive Support.mp3 */; };
+		E1E5F33519132EEC00A3476D /* Food.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F32F19132EEC00A3476D /* Food.mp3 */; };
+		E1E5F33619132EEC00A3476D /* Medication.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F33019132EEC00A3476D /* Medication.mp3 */; };
 		E1E5F33719132EEC00A3476D /* ToyKid’s Product.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F33119132EEC00A3476D /* ToyKid’s Product.mp3 */; };
-		E1E5F33819132EEC00A3476D /* weight loss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F33219132EEC00A3476D /* weight loss.mp3 */; };
+		E1E5F33819132EEC00A3476D /* Weight Loss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F33219132EEC00A3476D /* Weight Loss.mp3 */; };
 		E1E5F33C19132F8A00A3476D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E5F33B19132F8A00A3476D /* DetailViewController.m */; };
 		E1F1680518F0ACDD00E7923E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F1680418F0ACDD00E7923E /* Foundation.framework */; };
 		E1F1680718F0ACDD00E7923E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F1680618F0ACDD00E7923E /* CoreGraphics.framework */; };
@@ -78,6 +79,7 @@
 /* Begin PBXFileReference section */
 		0E59F72D00B34278A9F441EF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		31240195478E4C548ED53384 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C69B1D19133D3900913077 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E1CF5AAA19120AC600BE0401 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		E1CF5AAB19120AC600BE0401 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		E1D1B76819120DBB00EFA71E /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
@@ -94,11 +96,11 @@
 		E1DDF4E31911F49A00C08AB0 /* Toy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Toy.jpg; sourceTree = "<group>"; };
 		E1DDF4EC1911F4FA00C08AB0 /* E_Happy Valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Happy Valley.jpg"; sourceTree = "<group>"; };
 		E1E5F32D19132EEC00A3476D /* Household Cleaner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Household Cleaner.mp3"; sourceTree = "<group>"; };
-		E1E5F32E19132EEC00A3476D /* exec support.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "exec support.mp3"; sourceTree = "<group>"; };
-		E1E5F32F19132EEC00A3476D /* food.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = food.mp3; sourceTree = "<group>"; };
-		E1E5F33019132EEC00A3476D /* medication.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = medication.mp3; sourceTree = "<group>"; };
+		E1E5F32E19132EEC00A3476D /* Executive Support.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Executive Support.mp3"; sourceTree = "<group>"; };
+		E1E5F32F19132EEC00A3476D /* Food.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Food.mp3; sourceTree = "<group>"; };
+		E1E5F33019132EEC00A3476D /* Medication.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Medication.mp3; sourceTree = "<group>"; };
 		E1E5F33119132EEC00A3476D /* ToyKid’s Product.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ToyKid’s Product.mp3"; sourceTree = "<group>"; };
-		E1E5F33219132EEC00A3476D /* weight loss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "weight loss.mp3"; sourceTree = "<group>"; };
+		E1E5F33219132EEC00A3476D /* Weight Loss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Weight Loss.mp3"; sourceTree = "<group>"; };
 		E1E5F33A19132F8A00A3476D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		E1E5F33B19132F8A00A3476D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		E1F1680118F0ACDD00E7923E /* BOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C69B1E19133D3900913077 /* AVFoundation.framework in Frameworks */,
 				E1F1687618F0D3D100E7923E /* QuartzCore.framework in Frameworks */,
 				E1F1680718F0ACDD00E7923E /* CoreGraphics.framework in Frameworks */,
 				E1F1680918F0ACDD00E7923E /* UIKit.framework in Frameworks */,
@@ -200,11 +203,11 @@
 			isa = PBXGroup;
 			children = (
 				E1E5F32D19132EEC00A3476D /* Household Cleaner.mp3 */,
-				E1E5F32E19132EEC00A3476D /* exec support.mp3 */,
-				E1E5F32F19132EEC00A3476D /* food.mp3 */,
-				E1E5F33019132EEC00A3476D /* medication.mp3 */,
+				E1E5F32E19132EEC00A3476D /* Executive Support.mp3 */,
+				E1E5F32F19132EEC00A3476D /* Food.mp3 */,
+				E1E5F33019132EEC00A3476D /* Medication.mp3 */,
 				E1E5F33119132EEC00A3476D /* ToyKid’s Product.mp3 */,
-				E1E5F33219132EEC00A3476D /* weight loss.mp3 */,
+				E1E5F33219132EEC00A3476D /* Weight Loss.mp3 */,
 			);
 			name = Audio;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 		E1F1680318F0ACDD00E7923E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1C69B1D19133D3900913077 /* AVFoundation.framework */,
 				E1F1687518F0D3D100E7923E /* QuartzCore.framework */,
 				E1F1680418F0ACDD00E7923E /* Foundation.framework */,
 				E1F1680618F0ACDD00E7923E /* CoreGraphics.framework */,
@@ -413,13 +417,13 @@
 				E1F1681B18F0ACDD00E7923E /* Main_iPad.storyboard in Resources */,
 				E1F1686318F0C20400E7923E /* E_Le Maison d’Artiste.jpg in Resources */,
 				E1F1685F18F0C20400E7923E /* E_GoGoGames.jpg in Resources */,
-				E1E5F33519132EEC00A3476D /* food.mp3 in Resources */,
-				E1E5F33819132EEC00A3476D /* weight loss.mp3 in Resources */,
+				E1E5F33519132EEC00A3476D /* Food.mp3 in Resources */,
+				E1E5F33819132EEC00A3476D /* Weight Loss.mp3 in Resources */,
 				E1DDF4E41911F49A00C08AB0 /* Around The House.jpg in Resources */,
 				E1DDF4E61911F49A00C08AB0 /* Food.jpg in Resources */,
 				E1F1685C18F0C20400E7923E /* E_Discoverarium.jpg in Resources */,
 				E1F1682018F0ACDD00E7923E /* Images.xcassets in Resources */,
-				E1E5F33419132EEC00A3476D /* exec support.mp3 in Resources */,
+				E1E5F33419132EEC00A3476D /* Executive Support.mp3 in Resources */,
 				E1D1B76D191212C200EFA71E /* Descriptions.strings in Resources */,
 				E1F1686118F0C20400E7923E /* E_Hartwell.jpg in Resources */,
 				E1DDF4E71911F49A00C08AB0 /* Health.jpg in Resources */,
@@ -442,7 +446,7 @@
 				E1F1685B18F0C20400E7923E /* E_Collaborative Group.jpg in Resources */,
 				E1F1685A18F0C20400E7923E /* E_Artisan's Choice.jpg in Resources */,
 				E1E5F33719132EEC00A3476D /* ToyKid’s Product.mp3 in Resources */,
-				E1E5F33619132EEC00A3476D /* medication.mp3 in Resources */,
+				E1E5F33619132EEC00A3476D /* Medication.mp3 in Resources */,
 				E1F1686218F0C20400E7923E /* E_Jackson & Browne.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

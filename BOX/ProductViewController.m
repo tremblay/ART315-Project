@@ -7,6 +7,7 @@
 //
 
 #import "ProductViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ProductViewController ()
 
@@ -40,7 +41,7 @@
             key = @"Food";
             break;
         case (1):
-            key = @"Weight loss";
+            key = @"Weight Loss";
             break;
         case (2):
             key = @"Executive Support";
@@ -58,8 +59,15 @@
             break;
     }
     _description.text = [descriptionsDict objectForKey:key];
-    
-    NSURL *soundFile = [[NSURL alloc] initFileURLWithPath:[[NSBundle mainBundle] pathForResource:key ofType:@"mp3" inDirectory:@"Audio"]];
+    NSString *path = [NSString stringWithFormat:@"BOX/Audio/%@", key];
+    NSLog(@"%d", [[NSFileManager defaultManager] fileExistsAtPath:path]);
+    /*NSURL *soundFile = [[NSURL alloc] initFileURLWithPath:[[NSBundle mainBundle] pathForResource:key ofType:@"mp3" inDirectory:@"Audio"]];
+    NSError *err;
+    AVAudioPlayer *audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFile error:&err];
+    if (err) {
+        //
+    }
+    [audioPlayer play];*/
 }
 
 - (void)didReceiveMemoryWarning {
