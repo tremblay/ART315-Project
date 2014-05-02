@@ -38,8 +38,27 @@
 }
 
 - (IBAction)buttonTapped:(id)sender {
+   // [self showNotice];
     [self.navigationController setNavigationBarHidden:NO];
-    [self performSegueWithIdentifier:@"SplashToType" sender:sender];
+    [self performSegueWithIdentifier:@"SplashToType" sender:self];
 }
+/*
+#pragma mark UIAlertViewDelegate Methods
+// Called when an alert button is tapped.
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    [self.navigationController setNavigationBarHidden:NO];
+    [self performSegueWithIdentifier:@"SplashToType" sender:self];
+}
+
+- (void)showNotice {
+    UIAlertView *network = [[UIAlertView alloc]
+                            initWithTitle:@"Blah"
+                            message:@"Blah blah"
+                            delegate:self
+                            cancelButtonTitle:@"OK"
+                            otherButtonTitles:nil
+                            ];
+    [network show];
+}*/
 
 @end
