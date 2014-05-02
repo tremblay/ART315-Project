@@ -12,19 +12,35 @@
 		E1C69B2819134D0800913077 /* food.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B2519134D0800913077 /* food.mp3 */; };
 		E1C69B2919134D0800913077 /* medication.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B2619134D0800913077 /* medication.mp3 */; };
 		E1C69B2A19134D0800913077 /* weight loss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B2719134D0800913077 /* weight loss.mp3 */; };
+		E1C69B2C19134FC400913077 /* Box Product.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B2B19134FC400913077 /* Box Product.png */; };
+		E1C69B331913501D00913077 /* Executive Support.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B2D1913501D00913077 /* Executive Support.png */; };
+		E1C69B341913501D00913077 /* Around The House.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B2E1913501D00913077 /* Around The House.png */; };
+		E1C69B351913501D00913077 /* Pill.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B2F1913501D00913077 /* Pill.png */; };
+		E1C69B361913501D00913077 /* Toy.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B301913501D00913077 /* Toy.png */; };
+		E1C69B371913501D00913077 /* Food.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B311913501D00913077 /* Food.png */; };
+		E1C69B381913501D00913077 /* Health.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B321913501D00913077 /* Health.png */; };
+		E1C69B4B1913510600913077 /* E_Artisan's Choice.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B391913510600913077 /* E_Artisan's Choice.png */; };
+		E1C69B4C1913510600913077 /* E_Collaborative Group.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B3A1913510600913077 /* E_Collaborative Group.png */; };
+		E1C69B4D1913510600913077 /* E_Crystaleen.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B3B1913510600913077 /* E_Crystaleen.png */; };
+		E1C69B4E1913510600913077 /* E_Discoverarium.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B3C1913510600913077 /* E_Discoverarium.png */; };
+		E1C69B4F1913510600913077 /* E_Dr. Shine.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B3D1913510600913077 /* E_Dr. Shine.png */; };
+		E1C69B501913510600913077 /* E_Future Fit.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B3E1913510600913077 /* E_Future Fit.png */; };
+		E1C69B511913510600913077 /* E_GoGoGames.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B3F1913510600913077 /* E_GoGoGames.png */; };
+		E1C69B521913510600913077 /* E_Happy Valley.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B401913510600913077 /* E_Happy Valley.png */; };
+		E1C69B531913510600913077 /* E_Hartwell.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B411913510600913077 /* E_Hartwell.png */; };
+		E1C69B541913510600913077 /* E_Jackson & Browne.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B421913510600913077 /* E_Jackson & Browne.png */; };
+		E1C69B551913510600913077 /* E_Le Maison d’Artiste.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B431913510600913077 /* E_Le Maison d’Artiste.png */; };
+		E1C69B561913510600913077 /* E_Lil Geniuses.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B441913510600913077 /* E_Lil Geniuses.png */; };
+		E1C69B571913510600913077 /* E_Scheiser.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B451913510600913077 /* E_Scheiser.png */; };
+		E1C69B581913510600913077 /* E_Slimatrix.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B461913510600913077 /* E_Slimatrix.png */; };
+		E1C69B591913510600913077 /* E_Synergetic Solutions.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B471913510600913077 /* E_Synergetic Solutions.png */; };
+		E1C69B5A1913510600913077 /* E_Voom.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B481913510600913077 /* E_Voom.png */; };
+		E1C69B5B1913510600913077 /* E_Xerxes.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B491913510600913077 /* E_Xerxes.png */; };
+		E1C69B5C1913510600913077 /* Pasture Labs.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B4A1913510600913077 /* Pasture Labs.png */; };
 		E1CF5AAC19120AC600BE0401 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CF5AAB19120AC600BE0401 /* SplashViewController.m */; };
 		E1D1B76919120DBB00EFA71E /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D1B76819120DBB00EFA71E /* splash.png */; };
-		E1D1B76B1912127700EFA71E /* Box Product.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1D1B76A1912127700EFA71E /* Box Product.jpg */; };
 		E1D1B76D191212C200EFA71E /* Descriptions.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1D1B76C191212C200EFA71E /* Descriptions.strings */; };
 		E1DDF4DB1911D31F00C08AB0 /* SizeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DDF4DA1911D31F00C08AB0 /* SizeTableViewController.m */; };
-		E1DDF4DD1911EB1D00C08AB0 /* Pasture Labs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4DC1911EB1D00C08AB0 /* Pasture Labs.jpg */; };
-		E1DDF4E41911F49A00C08AB0 /* Around The House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4DE1911F49A00C08AB0 /* Around The House.jpg */; };
-		E1DDF4E51911F49A00C08AB0 /* Executive Support.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4DF1911F49A00C08AB0 /* Executive Support.jpg */; };
-		E1DDF4E61911F49A00C08AB0 /* Food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4E01911F49A00C08AB0 /* Food.jpg */; };
-		E1DDF4E71911F49A00C08AB0 /* Health.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4E11911F49A00C08AB0 /* Health.jpg */; };
-		E1DDF4E81911F49A00C08AB0 /* Pill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4E21911F49A00C08AB0 /* Pill.jpg */; };
-		E1DDF4E91911F49A00C08AB0 /* Toy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4E31911F49A00C08AB0 /* Toy.jpg */; };
-		E1DDF4ED1911F4FA00C08AB0 /* E_Happy Valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1DDF4EC1911F4FA00C08AB0 /* E_Happy Valley.jpg */; };
 		E1E5F33319132EEC00A3476D /* Household Cleaner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F32D19132EEC00A3476D /* Household Cleaner.mp3 */; };
 		E1E5F33419132EEC00A3476D /* Executive Support.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F32E19132EEC00A3476D /* Executive Support.mp3 */; };
 		E1E5F33719132EEC00A3476D /* ToyKid’s Product.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F33119132EEC00A3476D /* ToyKid’s Product.mp3 */; };
@@ -46,23 +62,7 @@
 		E1F1683E18F0AFA000E7923E /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1683D18F0AFA000E7923E /* BrandViewController.m */; };
 		E1F1684718F0B44B00E7923E /* ColorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1684618F0B44B00E7923E /* ColorTableViewController.m */; };
 		E1F1684A18F0B6DD00E7923E /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1684918F0B6DD00E7923E /* ProductViewController.m */; };
-		E1F1685A18F0C20400E7923E /* E_Artisan's Choice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684B18F0C20400E7923E /* E_Artisan's Choice.jpg */; };
-		E1F1685B18F0C20400E7923E /* E_Collaborative Group.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684C18F0C20400E7923E /* E_Collaborative Group.jpg */; };
-		E1F1685C18F0C20400E7923E /* E_Discoverarium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684D18F0C20400E7923E /* E_Discoverarium.jpg */; };
-		E1F1685D18F0C20400E7923E /* E_Dr. Shine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684E18F0C20400E7923E /* E_Dr. Shine.jpg */; };
-		E1F1685E18F0C20400E7923E /* E_Future Fit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1684F18F0C20400E7923E /* E_Future Fit.jpg */; };
-		E1F1685F18F0C20400E7923E /* E_GoGoGames.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685018F0C20400E7923E /* E_GoGoGames.jpg */; };
-		E1F1686118F0C20400E7923E /* E_Hartwell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685218F0C20400E7923E /* E_Hartwell.jpg */; };
-		E1F1686218F0C20400E7923E /* E_Jackson & Browne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685318F0C20400E7923E /* E_Jackson & Browne.jpg */; };
-		E1F1686318F0C20400E7923E /* E_Le Maison d’Artiste.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685418F0C20400E7923E /* E_Le Maison d’Artiste.jpg */; };
-		E1F1686418F0C20400E7923E /* E_Lil Geniuses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685518F0C20400E7923E /* E_Lil Geniuses.jpg */; };
-		E1F1686518F0C20400E7923E /* E_Scheiser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685618F0C20400E7923E /* E_Scheiser.jpg */; };
-		E1F1686618F0C20400E7923E /* E_Slimatrix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685718F0C20400E7923E /* E_Slimatrix.jpg */; };
-		E1F1686718F0C20400E7923E /* E_Synergetic Solutions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685818F0C20400E7923E /* E_Synergetic Solutions.jpg */; };
-		E1F1686818F0C20400E7923E /* E_Xerxes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1685918F0C20400E7923E /* E_Xerxes.jpg */; };
-		E1F1686B18F0C34A00E7923E /* E_Crystaleen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1686A18F0C34A00E7923E /* E_Crystaleen.jpg */; };
 		E1F1686E18F0C40200E7923E /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1686D18F0C40200E7923E /* TypeViewController.m */; };
-		E1F1687018F0CD6500E7923E /* E_Voom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F1686F18F0CD6500E7923E /* E_Voom.jpg */; };
 		E1F1687618F0D3D100E7923E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F1687518F0D3D100E7923E /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,21 +83,37 @@
 		E1C69B2519134D0800913077 /* food.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = food.mp3; sourceTree = "<group>"; };
 		E1C69B2619134D0800913077 /* medication.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = medication.mp3; sourceTree = "<group>"; };
 		E1C69B2719134D0800913077 /* weight loss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "weight loss.mp3"; sourceTree = "<group>"; };
+		E1C69B2B19134FC400913077 /* Box Product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Box Product.png"; sourceTree = "<group>"; };
+		E1C69B2D1913501D00913077 /* Executive Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Executive Support.png"; sourceTree = "<group>"; };
+		E1C69B2E1913501D00913077 /* Around The House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Around The House.png"; sourceTree = "<group>"; };
+		E1C69B2F1913501D00913077 /* Pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pill.png; sourceTree = "<group>"; };
+		E1C69B301913501D00913077 /* Toy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Toy.png; sourceTree = "<group>"; };
+		E1C69B311913501D00913077 /* Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food.png; sourceTree = "<group>"; };
+		E1C69B321913501D00913077 /* Health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Health.png; sourceTree = "<group>"; };
+		E1C69B391913510600913077 /* E_Artisan's Choice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E_Artisan's Choice.png"; sourceTree = "<group>"; };
+		E1C69B3A1913510600913077 /* E_Collaborative Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E_Collaborative Group.png"; sourceTree = "<group>"; };
+		E1C69B3B1913510600913077 /* E_Crystaleen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E_Crystaleen.png; sourceTree = "<group>"; };
+		E1C69B3C1913510600913077 /* E_Discoverarium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E_Discoverarium.png; sourceTree = "<group>"; };
+		E1C69B3D1913510600913077 /* E_Dr. Shine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E_Dr. Shine.png"; sourceTree = "<group>"; };
+		E1C69B3E1913510600913077 /* E_Future Fit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E_Future Fit.png"; sourceTree = "<group>"; };
+		E1C69B3F1913510600913077 /* E_GoGoGames.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E_GoGoGames.png; sourceTree = "<group>"; };
+		E1C69B401913510600913077 /* E_Happy Valley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E_Happy Valley.png"; sourceTree = "<group>"; };
+		E1C69B411913510600913077 /* E_Hartwell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E_Hartwell.png; sourceTree = "<group>"; };
+		E1C69B421913510600913077 /* E_Jackson & Browne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E_Jackson & Browne.png"; sourceTree = "<group>"; };
+		E1C69B431913510600913077 /* E_Le Maison d’Artiste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E_Le Maison d’Artiste.png"; sourceTree = "<group>"; };
+		E1C69B441913510600913077 /* E_Lil Geniuses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E_Lil Geniuses.png"; sourceTree = "<group>"; };
+		E1C69B451913510600913077 /* E_Scheiser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E_Scheiser.png; sourceTree = "<group>"; };
+		E1C69B461913510600913077 /* E_Slimatrix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E_Slimatrix.png; sourceTree = "<group>"; };
+		E1C69B471913510600913077 /* E_Synergetic Solutions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E_Synergetic Solutions.png"; sourceTree = "<group>"; };
+		E1C69B481913510600913077 /* E_Voom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E_Voom.png; sourceTree = "<group>"; };
+		E1C69B491913510600913077 /* E_Xerxes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E_Xerxes.png; sourceTree = "<group>"; };
+		E1C69B4A1913510600913077 /* Pasture Labs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pasture Labs.png"; sourceTree = "<group>"; };
 		E1CF5AAA19120AC600BE0401 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		E1CF5AAB19120AC600BE0401 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		E1D1B76819120DBB00EFA71E /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
-		E1D1B76A1912127700EFA71E /* Box Product.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Box Product.jpg"; sourceTree = "<group>"; };
 		E1D1B76C191212C200EFA71E /* Descriptions.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Descriptions.strings; sourceTree = "<group>"; };
 		E1DDF4D91911D31F00C08AB0 /* SizeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeTableViewController.h; sourceTree = "<group>"; };
 		E1DDF4DA1911D31F00C08AB0 /* SizeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeTableViewController.m; sourceTree = "<group>"; };
-		E1DDF4DC1911EB1D00C08AB0 /* Pasture Labs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pasture Labs.jpg"; sourceTree = "<group>"; };
-		E1DDF4DE1911F49A00C08AB0 /* Around The House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Around The House.jpg"; sourceTree = "<group>"; };
-		E1DDF4DF1911F49A00C08AB0 /* Executive Support.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Executive Support.jpg"; sourceTree = "<group>"; };
-		E1DDF4E01911F49A00C08AB0 /* Food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Food.jpg; sourceTree = "<group>"; };
-		E1DDF4E11911F49A00C08AB0 /* Health.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Health.jpg; sourceTree = "<group>"; };
-		E1DDF4E21911F49A00C08AB0 /* Pill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pill.jpg; sourceTree = "<group>"; };
-		E1DDF4E31911F49A00C08AB0 /* Toy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Toy.jpg; sourceTree = "<group>"; };
-		E1DDF4EC1911F4FA00C08AB0 /* E_Happy Valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Happy Valley.jpg"; sourceTree = "<group>"; };
 		E1E5F32D19132EEC00A3476D /* Household Cleaner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Household Cleaner.mp3"; sourceTree = "<group>"; };
 		E1E5F32E19132EEC00A3476D /* Executive Support.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Executive Support.mp3"; sourceTree = "<group>"; };
 		E1E5F33119132EEC00A3476D /* ToyKid’s Product.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ToyKid’s Product.mp3"; sourceTree = "<group>"; };
@@ -127,24 +143,8 @@
 		E1F1684618F0B44B00E7923E /* ColorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTableViewController.m; sourceTree = "<group>"; };
 		E1F1684818F0B6DD00E7923E /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
 		E1F1684918F0B6DD00E7923E /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
-		E1F1684B18F0C20400E7923E /* E_Artisan's Choice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Artisan's Choice.jpg"; sourceTree = "<group>"; };
-		E1F1684C18F0C20400E7923E /* E_Collaborative Group.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Collaborative Group.jpg"; sourceTree = "<group>"; };
-		E1F1684D18F0C20400E7923E /* E_Discoverarium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Discoverarium.jpg; sourceTree = "<group>"; };
-		E1F1684E18F0C20400E7923E /* E_Dr. Shine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Dr. Shine.jpg"; sourceTree = "<group>"; };
-		E1F1684F18F0C20400E7923E /* E_Future Fit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Future Fit.jpg"; sourceTree = "<group>"; };
-		E1F1685018F0C20400E7923E /* E_GoGoGames.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_GoGoGames.jpg; sourceTree = "<group>"; };
-		E1F1685218F0C20400E7923E /* E_Hartwell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Hartwell.jpg; sourceTree = "<group>"; };
-		E1F1685318F0C20400E7923E /* E_Jackson & Browne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Jackson & Browne.jpg"; sourceTree = "<group>"; };
-		E1F1685418F0C20400E7923E /* E_Le Maison d’Artiste.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Le Maison d’Artiste.jpg"; sourceTree = "<group>"; };
-		E1F1685518F0C20400E7923E /* E_Lil Geniuses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Lil Geniuses.jpg"; sourceTree = "<group>"; };
-		E1F1685618F0C20400E7923E /* E_Scheiser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Scheiser.jpg; sourceTree = "<group>"; };
-		E1F1685718F0C20400E7923E /* E_Slimatrix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Slimatrix.jpg; sourceTree = "<group>"; };
-		E1F1685818F0C20400E7923E /* E_Synergetic Solutions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E_Synergetic Solutions.jpg"; sourceTree = "<group>"; };
-		E1F1685918F0C20400E7923E /* E_Xerxes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Xerxes.jpg; sourceTree = "<group>"; };
-		E1F1686A18F0C34A00E7923E /* E_Crystaleen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Crystaleen.jpg; sourceTree = "<group>"; };
 		E1F1686C18F0C40200E7923E /* TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
 		E1F1686D18F0C40200E7923E /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
-		E1F1686F18F0CD6500E7923E /* E_Voom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Voom.jpg; sourceTree = "<group>"; };
 		E1F1687518F0D3D100E7923E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -178,7 +178,7 @@
 		E1DDF4EA1911F4AA00C08AB0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				E1D1B76A1912127700EFA71E /* Box Product.jpg */,
+				E1C69B2B19134FC400913077 /* Box Product.png */,
 				E1D1B76819120DBB00EFA71E /* splash.png */,
 				E1DDF4EB1911F4C200C08AB0 /* Type Images */,
 				E1F1686918F0C21600E7923E /* Brand Images */,
@@ -189,12 +189,12 @@
 		E1DDF4EB1911F4C200C08AB0 /* Type Images */ = {
 			isa = PBXGroup;
 			children = (
-				E1DDF4DE1911F49A00C08AB0 /* Around The House.jpg */,
-				E1DDF4DF1911F49A00C08AB0 /* Executive Support.jpg */,
-				E1DDF4E01911F49A00C08AB0 /* Food.jpg */,
-				E1DDF4E11911F49A00C08AB0 /* Health.jpg */,
-				E1DDF4E21911F49A00C08AB0 /* Pill.jpg */,
-				E1DDF4E31911F49A00C08AB0 /* Toy.jpg */,
+				E1C69B2D1913501D00913077 /* Executive Support.png */,
+				E1C69B2E1913501D00913077 /* Around The House.png */,
+				E1C69B2F1913501D00913077 /* Pill.png */,
+				E1C69B301913501D00913077 /* Toy.png */,
+				E1C69B311913501D00913077 /* Food.png */,
+				E1C69B321913501D00913077 /* Health.png */,
 			);
 			name = "Type Images";
 			sourceTree = "<group>";
@@ -308,24 +308,24 @@
 		E1F1686918F0C21600E7923E /* Brand Images */ = {
 			isa = PBXGroup;
 			children = (
-				E1F1684B18F0C20400E7923E /* E_Artisan's Choice.jpg */,
-				E1F1684C18F0C20400E7923E /* E_Collaborative Group.jpg */,
-				E1F1686A18F0C34A00E7923E /* E_Crystaleen.jpg */,
-				E1F1684D18F0C20400E7923E /* E_Discoverarium.jpg */,
-				E1F1684E18F0C20400E7923E /* E_Dr. Shine.jpg */,
-				E1F1684F18F0C20400E7923E /* E_Future Fit.jpg */,
-				E1F1685018F0C20400E7923E /* E_GoGoGames.jpg */,
-				E1DDF4EC1911F4FA00C08AB0 /* E_Happy Valley.jpg */,
-				E1F1685218F0C20400E7923E /* E_Hartwell.jpg */,
-				E1F1685318F0C20400E7923E /* E_Jackson & Browne.jpg */,
-				E1F1685418F0C20400E7923E /* E_Le Maison d’Artiste.jpg */,
-				E1F1685518F0C20400E7923E /* E_Lil Geniuses.jpg */,
-				E1F1685618F0C20400E7923E /* E_Scheiser.jpg */,
-				E1F1685718F0C20400E7923E /* E_Slimatrix.jpg */,
-				E1F1685818F0C20400E7923E /* E_Synergetic Solutions.jpg */,
-				E1F1686F18F0CD6500E7923E /* E_Voom.jpg */,
-				E1DDF4DC1911EB1D00C08AB0 /* Pasture Labs.jpg */,
-				E1F1685918F0C20400E7923E /* E_Xerxes.jpg */,
+				E1C69B391913510600913077 /* E_Artisan's Choice.png */,
+				E1C69B3A1913510600913077 /* E_Collaborative Group.png */,
+				E1C69B3B1913510600913077 /* E_Crystaleen.png */,
+				E1C69B3C1913510600913077 /* E_Discoverarium.png */,
+				E1C69B3D1913510600913077 /* E_Dr. Shine.png */,
+				E1C69B3E1913510600913077 /* E_Future Fit.png */,
+				E1C69B3F1913510600913077 /* E_GoGoGames.png */,
+				E1C69B401913510600913077 /* E_Happy Valley.png */,
+				E1C69B411913510600913077 /* E_Hartwell.png */,
+				E1C69B421913510600913077 /* E_Jackson & Browne.png */,
+				E1C69B431913510600913077 /* E_Le Maison d’Artiste.png */,
+				E1C69B441913510600913077 /* E_Lil Geniuses.png */,
+				E1C69B451913510600913077 /* E_Scheiser.png */,
+				E1C69B461913510600913077 /* E_Slimatrix.png */,
+				E1C69B471913510600913077 /* E_Synergetic Solutions.png */,
+				E1C69B481913510600913077 /* E_Voom.png */,
+				E1C69B491913510600913077 /* E_Xerxes.png */,
+				E1C69B4A1913510600913077 /* Pasture Labs.png */,
 			);
 			name = "Brand Images";
 			sourceTree = "<group>";
@@ -411,43 +411,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1F1687018F0CD6500E7923E /* E_Voom.jpg in Resources */,
-				E1DDF4DD1911EB1D00C08AB0 /* Pasture Labs.jpg in Resources */,
-				E1F1686818F0C20400E7923E /* E_Xerxes.jpg in Resources */,
+				E1C69B561913510600913077 /* E_Lil Geniuses.png in Resources */,
+				E1C69B501913510600913077 /* E_Future Fit.png in Resources */,
+				E1C69B5C1913510600913077 /* Pasture Labs.png in Resources */,
 				E1F1681B18F0ACDD00E7923E /* Main_iPad.storyboard in Resources */,
-				E1F1686318F0C20400E7923E /* E_Le Maison d’Artiste.jpg in Resources */,
-				E1F1685F18F0C20400E7923E /* E_GoGoGames.jpg in Resources */,
-				E1DDF4E41911F49A00C08AB0 /* Around The House.jpg in Resources */,
+				E1C69B4E1913510600913077 /* E_Discoverarium.png in Resources */,
+				E1C69B4C1913510600913077 /* E_Collaborative Group.png in Resources */,
 				E1C69B2A19134D0800913077 /* weight loss.mp3 in Resources */,
-				E1DDF4E61911F49A00C08AB0 /* Food.jpg in Resources */,
-				E1F1685C18F0C20400E7923E /* E_Discoverarium.jpg in Resources */,
+				E1C69B361913501D00913077 /* Toy.png in Resources */,
 				E1F1682018F0ACDD00E7923E /* Images.xcassets in Resources */,
+				E1C69B591913510600913077 /* E_Synergetic Solutions.png in Resources */,
+				E1C69B4B1913510600913077 /* E_Artisan's Choice.png in Resources */,
+				E1C69B5B1913510600913077 /* E_Xerxes.png in Resources */,
+				E1C69B531913510600913077 /* E_Hartwell.png in Resources */,
 				E1E5F33419132EEC00A3476D /* Executive Support.mp3 in Resources */,
+				E1C69B521913510600913077 /* E_Happy Valley.png in Resources */,
+				E1C69B541913510600913077 /* E_Jackson & Browne.png in Resources */,
+				E1C69B351913501D00913077 /* Pill.png in Resources */,
 				E1D1B76D191212C200EFA71E /* Descriptions.strings in Resources */,
-				E1F1686118F0C20400E7923E /* E_Hartwell.jpg in Resources */,
-				E1DDF4E71911F49A00C08AB0 /* Health.jpg in Resources */,
+				E1C69B4D1913510600913077 /* E_Crystaleen.png in Resources */,
+				E1C69B371913501D00913077 /* Food.png in Resources */,
 				E1F1681818F0ACDD00E7923E /* Main_iPhone.storyboard in Resources */,
-				E1DDF4E51911F49A00C08AB0 /* Executive Support.jpg in Resources */,
-				E1F1686518F0C20400E7923E /* E_Scheiser.jpg in Resources */,
 				E1D1B76919120DBB00EFA71E /* splash.png in Resources */,
-				E1D1B76B1912127700EFA71E /* Box Product.jpg in Resources */,
-				E1F1686418F0C20400E7923E /* E_Lil Geniuses.jpg in Resources */,
-				E1DDF4ED1911F4FA00C08AB0 /* E_Happy Valley.jpg in Resources */,
+				E1C69B581913510600913077 /* E_Slimatrix.png in Resources */,
+				E1C69B5A1913510600913077 /* E_Voom.png in Resources */,
+				E1C69B2C19134FC400913077 /* Box Product.png in Resources */,
 				E1C69B2919134D0800913077 /* medication.mp3 in Resources */,
 				E1C69B2819134D0800913077 /* food.mp3 in Resources */,
+				E1C69B4F1913510600913077 /* E_Dr. Shine.png in Resources */,
 				E1E5F33319132EEC00A3476D /* Household Cleaner.mp3 in Resources */,
-				E1F1686618F0C20400E7923E /* E_Slimatrix.jpg in Resources */,
-				E1F1685E18F0C20400E7923E /* E_Future Fit.jpg in Resources */,
-				E1DDF4E91911F49A00C08AB0 /* Toy.jpg in Resources */,
 				E1F1680F18F0ACDD00E7923E /* InfoPlist.strings in Resources */,
-				E1F1686B18F0C34A00E7923E /* E_Crystaleen.jpg in Resources */,
-				E1DDF4E81911F49A00C08AB0 /* Pill.jpg in Resources */,
-				E1F1686718F0C20400E7923E /* E_Synergetic Solutions.jpg in Resources */,
-				E1F1685D18F0C20400E7923E /* E_Dr. Shine.jpg in Resources */,
-				E1F1685B18F0C20400E7923E /* E_Collaborative Group.jpg in Resources */,
-				E1F1685A18F0C20400E7923E /* E_Artisan's Choice.jpg in Resources */,
+				E1C69B341913501D00913077 /* Around The House.png in Resources */,
+				E1C69B381913501D00913077 /* Health.png in Resources */,
+				E1C69B571913510600913077 /* E_Scheiser.png in Resources */,
 				E1E5F33719132EEC00A3476D /* ToyKid’s Product.mp3 in Resources */,
-				E1F1686218F0C20400E7923E /* E_Jackson & Browne.jpg in Resources */,
+				E1C69B331913501D00913077 /* Executive Support.png in Resources */,
+				E1C69B511913510600913077 /* E_GoGoGames.png in Resources */,
+				E1C69B551913510600913077 /* E_Le Maison d’Artiste.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

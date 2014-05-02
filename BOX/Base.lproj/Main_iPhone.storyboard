@@ -81,7 +81,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ix7-ya-r0t">
                                 <rect key="frame" x="180" y="234" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Around The House.jpg">
+                                <state key="normal" image="Around The House.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -91,7 +91,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6u-wU-rDC">
                                 <rect key="frame" x="20" y="234" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Executive Support.jpg">
+                                <state key="normal" image="Executive Support.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -101,7 +101,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnV-gg-h0L">
                                 <rect key="frame" x="20" y="342" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Toy.jpg">
+                                <state key="normal" image="Toy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -111,7 +111,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVM-z2-3mq">
                                 <rect key="frame" x="180" y="342" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Pill.jpg">
+                                <state key="normal" image="Pill.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -121,7 +121,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTv-dM-HAt">
                                 <rect key="frame" x="20" y="126" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Food" image="Food.jpg">
+                                <state key="normal" title="Food" image="Food.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -131,7 +131,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JSm-Tb-e2B">
                                 <rect key="frame" x="180" y="126" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Health.jpg">
+                                <state key="normal" image="Health.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -389,7 +389,7 @@
                                     <action selector="buttonTapped:" destination="k8r-g7-PMh" eventType="touchUpInside" id="eZt-Fk-vTU"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Box Product.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cvh-O1-2k9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Box Product.png" translatesAutoresizingMaskIntoConstraints="NO" id="cvh-O1-2k9">
                                 <rect key="frame" x="40" y="69" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -437,13 +437,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Around The House.jpg" width="2258" height="1882"/>
-        <image name="Box Product.jpg" width="644" height="414"/>
-        <image name="Executive Support.jpg" width="775" height="646"/>
-        <image name="Food.jpg" width="4032" height="3360"/>
-        <image name="Health.jpg" width="516" height="430"/>
-        <image name="Pill.jpg" width="741" height="618"/>
-        <image name="Toy.jpg" width="574" height="478"/>
+        <image name="Around The House.png" width="2258" height="1882"/>
+        <image name="Box Product.png" width="644" height="414"/>
+        <image name="Executive Support.png" width="775" height="646"/>
+        <image name="Food.png" width="4032" height="3360"/>
+        <image name="Health.png" width="516" height="430"/>
+        <image name="Pill.png" width="741" height="618"/>
+        <image name="Toy.png" width="574" height="478"/>
         <image name="splash.png" width="640" height="960"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

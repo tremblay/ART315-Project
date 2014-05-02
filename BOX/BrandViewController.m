@@ -41,34 +41,34 @@
 
     switch (_selectedInd) {
         case 0:
-            [_button1 setImage:[UIImage imageNamed:@"E_Happy Valley.jpg"]  forState:UIControlStateNormal];
-            [_button2 setImage:[UIImage imageNamed:@"E_Le Maison d’Artiste.jpg"]  forState:UIControlStateNormal];
-            [_button3 setImage:[UIImage imageNamed:@"E_Artisan's Choice.jpg"]  forState:UIControlStateNormal];
+            [_button1 setImage:[UIImage imageNamed:@"E_Happy Valley.png"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Le Maison d’Artiste.png"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Artisan's Choice.png"]  forState:UIControlStateNormal];
             break;
         case 1:
-            [_button1 setImage:[UIImage imageNamed:@"E_Future Fit.jpg"]  forState:UIControlStateNormal];
-            [_button2 setImage:[UIImage imageNamed:@"E_Slimatrix.jpg"]  forState:UIControlStateNormal];
-            [_button3 setImage:[UIImage imageNamed:@"E_Voom.jpg"]  forState:UIControlStateNormal];
+            [_button1 setImage:[UIImage imageNamed:@"E_Future Fit.png"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Slimatrix.png"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Voom.png"]  forState:UIControlStateNormal];
             break;
         case 2:
-            [_button1 setImage:[UIImage imageNamed:@"E_Hartwell.jpg"]  forState:UIControlStateNormal];
-            [_button2 setImage:[UIImage imageNamed:@"E_Synergetic Solutions.jpg"]  forState:UIControlStateNormal];
-            [_button3 setImage:[UIImage imageNamed:@"E_Collaborative Group.jpg"]  forState:UIControlStateNormal];
+            [_button1 setImage:[UIImage imageNamed:@"E_Hartwell.png"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Synergetic Solutions.png"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Collaborative Group.png"]  forState:UIControlStateNormal];
             break;
         case 3:
-            [_button1 setImage:[UIImage imageNamed:@"E_Dr. Shine.jpg"]  forState:UIControlStateNormal];
-            [_button2 setImage:[UIImage imageNamed:@"E_Xerxes.jpg"]  forState:UIControlStateNormal];
-            [_button3 setImage:[UIImage imageNamed:@"E_Crystaleen.jpg"]  forState:UIControlStateNormal];
+            [_button1 setImage:[UIImage imageNamed:@"E_Dr. Shine.png"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Xerxes.png"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Crystaleen.png"]  forState:UIControlStateNormal];
             break;
         case 4:
-            [_button1 setImage:[UIImage imageNamed:@"E_Discoverarium.jpg"]  forState:UIControlStateNormal];
-            [_button2 setImage:[UIImage imageNamed:@"E_GoGoGames.jpg"]  forState:UIControlStateNormal];
-            [_button3 setImage:[UIImage imageNamed:@"E_Lil Geniuses.jpg"]  forState:UIControlStateNormal];
+            [_button1 setImage:[UIImage imageNamed:@"E_Discoverarium.png"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_GoGoGames.png"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"E_Lil Geniuses.png"]  forState:UIControlStateNormal];
             break;
         case 5:
-            [_button1 setImage:[UIImage imageNamed:@"E_Jackson & Browne.jpg"]  forState:UIControlStateNormal];
-            [_button2 setImage:[UIImage imageNamed:@"E_Scheiser.jpg"]  forState:UIControlStateNormal];
-            [_button3 setImage:[UIImage imageNamed:@"Pasture Labs.jpg"]  forState:UIControlStateNormal];
+            [_button1 setImage:[UIImage imageNamed:@"E_Jackson & Browne.png"]  forState:UIControlStateNormal];
+            [_button2 setImage:[UIImage imageNamed:@"E_Scheiser.png"]  forState:UIControlStateNormal];
+            [_button3 setImage:[UIImage imageNamed:@"Pasture Labs.png"]  forState:UIControlStateNormal];
             break;
         default:
             break;
