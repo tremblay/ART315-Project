@@ -25,11 +25,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    int height = [[UIScreen mainScreen] bounds].size.height;
-    if (568 == height) {
-        _splashImage.image = [UIImage imageNamed:@"splash-568.png"];
+    if (UIUserInterfaceIdiomPad == UI_USER_INTERFACE_IDIOM()) {
+        if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] && (2.0 == [UIScreen mainScreen].scale)) {
+            _splashImage.image = [UIImage imageNamed:@"splash-ipad@2x.png"];
+        } else {
+            _splashImage.image = [UIImage imageNamed:@"splash-ipad.png"];
+        }
     } else {
-        _splashImage.image = [UIImage imageNamed:@"splash.png"];
+        int height = [[UIScreen mainScreen] bounds].size.height;
+        if (568 == height) {
+            _splashImage.image = [UIImage imageNamed:@"splash-568.png"];
+        } else {
+            _splashImage.image = [UIImage imageNamed:@"splash.png"];
+        }
     }
 }
 

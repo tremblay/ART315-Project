@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C52D22B6A7CC4F07A96E7E92 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31240195478E4C548ED53384 /* libPods.a */; };
 		E12A9A281918235300494D2E /* splash-568.png in Resources */ = {isa = PBXBuildFile; fileRef = E12A9A271918235200494D2E /* splash-568.png */; };
+		E12A9A2B19183BE500494D2E /* splash-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E12A9A2919183BE500494D2E /* splash-ipad.png */; };
+		E12A9A2C19183BE500494D2E /* splash-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E12A9A2A19183BE500494D2E /* splash-ipad@2x.png */; };
 		E1C69B1E19133D3900913077 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C69B1D19133D3900913077 /* AVFoundation.framework */; };
 		E1C69B2819134D0800913077 /* food.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B2519134D0800913077 /* food.mp3 */; };
 		E1C69B2919134D0800913077 /* medication.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1C69B2619134D0800913077 /* medication.mp3 */; };
@@ -81,6 +83,8 @@
 		0E59F72D00B34278A9F441EF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		31240195478E4C548ED53384 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12A9A271918235200494D2E /* splash-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-568.png"; sourceTree = "<group>"; };
+		E12A9A2919183BE500494D2E /* splash-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-ipad.png"; sourceTree = "<group>"; };
+		E12A9A2A19183BE500494D2E /* splash-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-ipad@2x.png"; sourceTree = "<group>"; };
 		E1C69B1D19133D3900913077 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E1C69B2519134D0800913077 /* food.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = food.mp3; sourceTree = "<group>"; };
 		E1C69B2619134D0800913077 /* medication.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = medication.mp3; sourceTree = "<group>"; };
@@ -177,14 +181,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E12A9A2D19183BEF00494D2E /* Splash Images */ = {
+			isa = PBXGroup;
+			children = (
+				E12A9A2919183BE500494D2E /* splash-ipad.png */,
+				E12A9A2A19183BE500494D2E /* splash-ipad@2x.png */,
+				E12A9A271918235200494D2E /* splash-568.png */,
+				E1D1B76819120DBB00EFA71E /* splash.png */,
+			);
+			name = "Splash Images";
+			sourceTree = "<group>";
+		};
 		E1DDF4EA1911F4AA00C08AB0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				E1C69B2B19134FC400913077 /* Box Product.png */,
-				E12A9A271918235200494D2E /* splash-568.png */,
-				E1D1B76819120DBB00EFA71E /* splash.png */,
-				E1DDF4EB1911F4C200C08AB0 /* Type Images */,
 				E1F1686918F0C21600E7923E /* Brand Images */,
+				E12A9A2D19183BEF00494D2E /* Splash Images */,
+				E1DDF4EB1911F4C200C08AB0 /* Type Images */,
+				E1C69B2B19134FC400913077 /* Box Product.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -429,6 +443,7 @@
 				E1C69B531913510600913077 /* E_Hartwell.png in Resources */,
 				E1E5F33419132EEC00A3476D /* Executive Support.mp3 in Resources */,
 				E1C69B521913510600913077 /* E_Happy Valley.png in Resources */,
+				E12A9A2B19183BE500494D2E /* splash-ipad.png in Resources */,
 				E1C69B541913510600913077 /* E_Jackson & Browne.png in Resources */,
 				E1C69B351913501D00913077 /* Pill.png in Resources */,
 				E1D1B76D191212C200EFA71E /* Descriptions.strings in Resources */,
@@ -442,6 +457,7 @@
 				E1C69B2C19134FC400913077 /* Box Product.png in Resources */,
 				E1C69B2919134D0800913077 /* medication.mp3 in Resources */,
 				E1C69B2819134D0800913077 /* food.mp3 in Resources */,
+				E12A9A2C19183BE500494D2E /* splash-ipad@2x.png in Resources */,
 				E1C69B4F1913510600913077 /* E_Dr. Shine.png in Resources */,
 				E1E5F33319132EEC00A3476D /* Household Cleaner.mp3 in Resources */,
 				E1F1680F18F0ACDD00E7923E /* InfoPlist.strings in Resources */,
