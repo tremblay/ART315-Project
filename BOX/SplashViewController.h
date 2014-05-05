@@ -10,6 +10,7 @@
 
 @interface SplashViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIImageView *splashImage;
 - (IBAction)buttonTapped:(id)sender;
 
 @end

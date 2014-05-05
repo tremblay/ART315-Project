@@ -25,6 +25,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    if (UIUserInterfaceIdiomPhone == UI_USER_INTERFACE_IDIOM()) {
+        int height = [[UIScreen mainScreen] bounds].size.height;
+        if (568 == height) {
+            _splashImage.image = [UIImage imageNamed:@"splash-568.png"];
+        } else {
+            _splashImage.image = [UIImage imageNamed:@"splash.png"];
+        }
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated {
