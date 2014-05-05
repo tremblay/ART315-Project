@@ -75,7 +75,7 @@
     [timer stop];
     BrandViewController *brandVC = (BrandViewController *)[segue destinationViewController];
     UIButton *sendingButton = sender;
-    brandVC.selectedInd = sendingButton.tag;
+    brandVC.selectedInd = (int)sendingButton.tag;
 }
 
 @end
