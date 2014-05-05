@@ -88,13 +88,13 @@
     [self performSegueWithIdentifier:@"SizeToColor" sender:self];
 }
 
- #pragma mark - Navigation
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-     timerFlag = YES;
-     [timer stop];
-     ColorTableViewController *colorVC = (ColorTableViewController *)[segue destinationViewController];
-     colorVC.selectedBrandInd = _selectedBrandInd;
- }
+#pragma mark - Navigation
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    timerFlag = YES;
+    [timer stop];
+    ColorTableViewController *colorVC = (ColorTableViewController *)[segue destinationViewController];
+    colorVC.selectedBrandInd = _selectedBrandInd;
+}
 
 @end

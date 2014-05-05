@@ -68,30 +68,14 @@
     }
 }
 
- #pragma mark - Navigation
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-     timerFlag = YES;
-     [timer stop];
-     BrandViewController *brandVC = (BrandViewController *)[segue destinationViewController];
-     UIButton *sendingButton = sender;
-     if (20 == sendingButton.frame.origin.x) {
-         if (126 == sendingButton.frame.origin.y) {
-             brandVC.selectedInd = 0;
-         } else if (234 == sendingButton.frame.origin.y) {
-             brandVC.selectedInd = 2;
-         } else {
-             brandVC.selectedInd = 4;
-         }
-     } else {
-         if (126 == sendingButton.frame.origin.y) {
-             brandVC.selectedInd = 1;
-         } else if (234 == sendingButton.frame.origin.y) {
-             brandVC.selectedInd = 3;
-         } else {
-             brandVC.selectedInd = 5;
-         }
-     }
- }
+#pragma mark - Navigation
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    timerFlag = YES;
+    [timer stop];
+    BrandViewController *brandVC = (BrandViewController *)[segue destinationViewController];
+    UIButton *sendingButton = sender;
+    brandVC.selectedInd = sendingButton.tag;
+}
 
 @end

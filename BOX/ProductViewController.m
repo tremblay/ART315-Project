@@ -37,22 +37,22 @@
     _returnToStart.hidden = YES;
     NSString *key;
     switch (_selectedBrandInd) {
-        case (0):
+        case (100):
             key = @"food";
             break;
-        case (1):
+        case (101):
             key = @"weight loss";
             break;
-        case (2):
+        case (102):
             key = @"Executive Support";
             break;
-        case (3):
+        case (103):
             key = @"Household Cleaner";
             break;
-        case (4):
+        case (104):
             key = @"ToyKid’s Product";
             break;
-        case(5):
+        case(105):
             key = @"medication";
             break;
         default:
@@ -62,7 +62,7 @@
     NSString *path = [NSString stringWithFormat:@"%@/%@.mp3", [[NSBundle mainBundle] resourcePath], key];
     NSURL *soundFile = [NSURL fileURLWithPath:path];
     //NSLog(@"%@: %d", path, [[NSFileManager defaultManager] fileExistsAtPath:path]);
-
+    
     NSError *err;
     _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFile error:&err];
     if (err) {
@@ -92,12 +92,12 @@
 
 - (void)showNotice:(NSString *)error {
     UIAlertView *alert = [[UIAlertView alloc]
-                            initWithTitle:@"An Error Occurred"
-                            message:error
-                            delegate:self
-                            cancelButtonTitle:@"OK"
-                            otherButtonTitles:nil
-                            ];
+                          initWithTitle:@"An Error Occurred"
+                          message:error
+                          delegate:self
+                          cancelButtonTitle:@"OK"
+                          otherButtonTitles:nil
+                          ];
     [alert show];
 }
 

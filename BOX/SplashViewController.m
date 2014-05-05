@@ -25,13 +25,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    if (UIUserInterfaceIdiomPhone == UI_USER_INTERFACE_IDIOM()) {
-        int height = [[UIScreen mainScreen] bounds].size.height;
-        if (568 == height) {
-            _splashImage.image = [UIImage imageNamed:@"splash-568.png"];
-        } else {
-            _splashImage.image = [UIImage imageNamed:@"splash.png"];
-        }
+    int height = [[UIScreen mainScreen] bounds].size.height;
+    if (568 == height) {
+        _splashImage.image = [UIImage imageNamed:@"splash-568.png"];
+    } else {
+        _splashImage.image = [UIImage imageNamed:@"splash.png"];
     }
 }
 
@@ -46,27 +44,8 @@
 }
 
 - (IBAction)buttonTapped:(id)sender {
-   // [self showNotice];
     [self.navigationController setNavigationBarHidden:NO];
     [self performSegueWithIdentifier:@"SplashToType" sender:self];
 }
-/*
-#pragma mark UIAlertViewDelegate Methods
-// Called when an alert button is tapped.
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    [self.navigationController setNavigationBarHidden:NO];
-    [self performSegueWithIdentifier:@"SplashToType" sender:self];
-}
-
-- (void)showNotice {
-    UIAlertView *network = [[UIAlertView alloc]
-                            initWithTitle:@"Blah"
-                            message:@"Blah blah"
-                            delegate:self
-                            cancelButtonTitle:@"OK"
-                            otherButtonTitles:nil
-                            ];
-    [network show];
-}*/
 
 @end

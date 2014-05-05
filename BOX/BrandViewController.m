@@ -38,34 +38,34 @@
     [[_button2 layer] setBorderColor:[UIColor darkGrayColor].CGColor];
     [[_button3 layer] setBorderWidth:2.0f];
     [[_button3 layer] setBorderColor:[UIColor darkGrayColor].CGColor];
-
+    
     switch (_selectedInd) {
-        case 0:
+        case 100:
             [_button1 setImage:[UIImage imageNamed:@"E_Happy Valley.png"]  forState:UIControlStateNormal];
             [_button2 setImage:[UIImage imageNamed:@"E_Le Maison d’Artiste.png"]  forState:UIControlStateNormal];
             [_button3 setImage:[UIImage imageNamed:@"E_Artisan's Choice.png"]  forState:UIControlStateNormal];
             break;
-        case 1:
+        case 101:
             [_button1 setImage:[UIImage imageNamed:@"E_Future Fit.png"]  forState:UIControlStateNormal];
             [_button2 setImage:[UIImage imageNamed:@"E_Slimatrix.png"]  forState:UIControlStateNormal];
             [_button3 setImage:[UIImage imageNamed:@"E_Voom.png"]  forState:UIControlStateNormal];
             break;
-        case 2:
+        case 102:
             [_button1 setImage:[UIImage imageNamed:@"E_Hartwell.png"]  forState:UIControlStateNormal];
             [_button2 setImage:[UIImage imageNamed:@"E_Synergetic Solutions.png"]  forState:UIControlStateNormal];
             [_button3 setImage:[UIImage imageNamed:@"E_Collaborative Group.png"]  forState:UIControlStateNormal];
             break;
-        case 3:
+        case 103:
             [_button1 setImage:[UIImage imageNamed:@"E_Dr. Shine.png"]  forState:UIControlStateNormal];
             [_button2 setImage:[UIImage imageNamed:@"E_Xerxes.png"]  forState:UIControlStateNormal];
             [_button3 setImage:[UIImage imageNamed:@"E_Crystaleen.png"]  forState:UIControlStateNormal];
             break;
-        case 4:
+        case 104:
             [_button1 setImage:[UIImage imageNamed:@"E_Discoverarium.png"]  forState:UIControlStateNormal];
             [_button2 setImage:[UIImage imageNamed:@"E_GoGoGames.png"]  forState:UIControlStateNormal];
             [_button3 setImage:[UIImage imageNamed:@"E_Lil Geniuses.png"]  forState:UIControlStateNormal];
             break;
-        case 5:
+        case 105:
             [_button1 setImage:[UIImage imageNamed:@"E_Jackson & Browne.png"]  forState:UIControlStateNormal];
             [_button2 setImage:[UIImage imageNamed:@"E_Scheiser.png"]  forState:UIControlStateNormal];
             [_button3 setImage:[UIImage imageNamed:@"Pasture Labs.png"]  forState:UIControlStateNormal];
